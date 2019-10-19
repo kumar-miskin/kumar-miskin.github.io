@@ -115,22 +115,22 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: mailto:kumarpmiskin@gmail.com
+      url: mailto:kumarpmiskin@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/KumarMiskin"
+      url: "https://twitter.com/KumarMiskin"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-       url: "https://facebook.com/kumar.miskin.5"
+      url: "https://facebook.com/kumar.miskin.5"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/kumar-miskin"
+      url: "https://github.com/kumar-miskin"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://instagram.com/kumar_miskin"
+      url: "https://instagram.com/kumar_miskin"
 
 # Site Footer
 footer:
