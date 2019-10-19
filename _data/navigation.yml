@@ -2,6 +2,8 @@
 main:
   - title: "Resume/CV"
     url: https://home.iitb.ac.in/~kumarpmiskin/Resume.pdf
+  - title: "Projects"
+    url: https://home.iitb.ac.in/~kumarpmiskin/Resume.pdf
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
