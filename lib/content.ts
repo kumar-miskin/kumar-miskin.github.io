@@ -55,7 +55,7 @@ export const publications: Publication[] = [
     venue: "Journal of Materials Chemistry A",
     year: 2026,
     firstAuthor: true,
-    links: [{ label: "DOI", url: profile.scholarUrl }],
+    links: [{ label: "DOI", url: "https://doi.org/10.1039/d6ta01465h" }],
   },
   {
     title: "Low-energy pathways lead to self-healing defects in CsPbBr\u2083",
@@ -64,7 +64,7 @@ export const publications: Publication[] = [
     venue: "Physical Chemistry Chemical Physics",
     year: 2025,
     firstAuthor: true,
-    links: [{ label: "DOI", url: profile.scholarUrl }],
+    links: [{ label: "DOI", url: "https://doi.org/10.1039/d5cp01641j" }],
   },
   {
     title:
@@ -73,7 +73,7 @@ export const publications: Publication[] = [
       "M.S. Priyadarshini, O. Romiluyi, Y. Wang, K. Miskin, C. Ganley, P. Clancy",
     venue: "Materials Horizons",
     year: 2024,
-    links: [{ label: "DOI", url: profile.scholarUrl }],
+    links: [{ label: "DOI", url: "https://doi.org/10.1039/d3mh01474f" }],
   },
   {
     title:
