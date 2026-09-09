@@ -86,22 +86,20 @@ export const publications: Publication[] = [
   },
   {
     title:
-      "How flyer geometry affects shock wave propagation and spall on impact",
-    authors:
-      "M. Zhang\u2020, K. Miskin\u2020, K. Muly, J. Rodriguez, K.T. Ramesh, P. Clancy",
-    venue: "In preparation",
+      "Deciphering the Dynamical and Structural Factors Controlling Na-Ion Transport in Hydroborate-based Solid Electrolytes",
+    authors: "S. Yuan, I. Hsieh, K. Miskin, K. Kim, L. Wan",
+    venue: "Under Revision",
     year: 2026,
-    status: "\u2020 equal contribution",
-    firstAuthor: true,
     links: [],
   },
   {
     title:
-      "Elucidating sodium transport mechanisms in hydroborates from machine-learning molecular dynamics simulations",
-    authors: "S. Yuan, K. Miskin, K. Kim, L. Wan",
-    venue: "In preparation",
+      "How flyer geometry affects shock wave propagation and spall on impact",
+    authors:
+      "K. Miskin, M. Zhang, K. Muly, Joel, K.T. Ramesh, P. Clancy",
+    venue: "In Preparation",
     year: 2026,
-    status: "LLNL collaboration",
+    firstAuthor: true,
     links: [],
   },
 ];
