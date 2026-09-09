@@ -20,7 +20,7 @@ export const profile = {
 
 export const stats = [
   { value: "4", label: "Peer-reviewed publications" },
-  { value: "38+", label: "Citations" },
+  { value: "42", label: "Citations" },
   { value: "2", label: "First-author papers" },
   { value: "3", label: "Continents, industry + national lab" },
 ];

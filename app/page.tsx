@@ -13,6 +13,7 @@ import {
   IconScholar,
   IconTwitter,
 } from "@/components/icons";
+import LiveCitations from "@/components/LiveCitations";
 import {
   awards,
   education,
@@ -107,7 +108,13 @@ export default function Home() {
                 <div className="hero__stats-grid">
                   {stats.map((s) => (
                     <div className="stat" key={s.label}>
-                      <div className="stat__value">{s.value}</div>
+                      <div className="stat__value">
+                        {s.label === "Citations" ? (
+                          <LiveCitations fallback={s.value} />
+                        ) : (
+                          s.value
+                        )}
+                      </div>
                       <div className="stat__label">{s.label}</div>
                     </div>
                   ))}
