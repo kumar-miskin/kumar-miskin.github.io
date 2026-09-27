@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Nav from "@/components/Nav";
 import Reveal from "@/components/Reveal";
 import {
@@ -15,6 +16,7 @@ import {
 } from "@/components/icons";
 import LiveCitations from "@/components/LiveCitations";
 import {
+  articles,
   awards,
   education,
   experience,
@@ -375,11 +377,58 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ---------- Writing ---------- */}
+        <section id="writing" className="section">
+          <div className="container">
+            <div className="section__head">
+              <Reveal>
+                <span className="section__eyebrow">05 &middot; Writing</span>
+                <h2 className="section__title">Notes and receipts</h2>
+                <p className="section__lede">
+                  Longer writeups behind the charts and analysis I post, with
+                  the data and code linked so every number can be checked.
+                </p>
+              </Reveal>
+            </div>
+
+            <div className="writing__list">
+              {articles.map((a, i) => (
+                <Reveal key={a.slug} delay={Math.min(i * 40, 160)}>
+                  <article className="writing-card">
+                    <span className="pub__index">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                    <div className="pub__body">
+                      <p className="writing-card__meta">
+                        {a.date} &middot; {a.readingTime}
+                      </p>
+                      <h3 className="writing-card__title">
+                        <Link href={`/writing/${a.slug}`}>{a.title}</Link>
+                      </h3>
+                      <p className="writing-card__desc">{a.description}</p>
+                      <div className="pub__badges">
+                        {a.tags.map((t) => (
+                          <span className="badge badge--outline" key={t}>
+                            {t}
+                          </span>
+                        ))}
+                        <Link className="pub__link" href={`/writing/${a.slug}`}>
+                          Read article <IconArrowUpRight size={13} />
+                        </Link>
+                      </div>
+                    </div>
+                  </article>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ---------- Contact ---------- */}
-        <section id="contact" className="section contact">
+        <section id="contact" className="section section--alt contact">
           <div className="container">
             <Reveal>
-              <span className="section__eyebrow">05 &middot; Contact</span>
+              <span className="section__eyebrow">06 &middot; Contact</span>
               <h2 className="contact__headline">Let&apos;s talk</h2>
               <p className="contact__lede">
                 Open to research collaborations, ML &amp; scientific computing

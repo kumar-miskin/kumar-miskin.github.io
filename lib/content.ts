@@ -245,5 +245,107 @@ export const navLinks = [
   { label: "Publications", href: "#publications" },
   { label: "Experience", href: "#experience" },
   { label: "Projects", href: "#projects" },
+  { label: "Writing", href: "#writing" },
   { label: "Contact", href: "#contact" },
+];
+
+export type ArticleBlock =
+  | { type: "paragraph"; text: string }
+  | { type: "heading"; text: string }
+  | { type: "list"; items: string[] }
+  | { type: "image"; src: string; alt: string; caption: string }
+  | { type: "statgrid"; stats: { value: string; label: string }[] };
+
+export type Article = {
+  slug: string;
+  title: string;
+  date: string;
+  description: string;
+  readingTime: string;
+  tags: string[];
+  links: { label: string; url: string }[];
+  body: ArticleBlock[];
+};
+
+export const articles: Article[] = [
+  {
+    slug: "bitcoin-etf-flows",
+    title: "Bitcoin ETF flows: the receipts behind the chart",
+    date: "September 20, 2026",
+    description:
+      "Every week I post the same bitcoin ETF flow chart. Here is where the numbers come from, how each one gets verified, and what two years of flows actually say.",
+    readingTime: "4 min read",
+    tags: ["Bitcoin", "ETF flows", "Data"],
+    links: [
+      {
+        label: "The chart, as posted on X",
+        url: "https://x.com/KumarMiskin/status/2100421222945419645",
+      },
+      {
+        label: "Code and data behind every number",
+        url: "https://github.com/kumar-miskin/btc-macro-analysis",
+      },
+      {
+        label: "Source data: Farside Investors",
+        url: "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+      },
+    ],
+    body: [
+      {
+        type: "paragraph",
+        text: "Every week I post the same chart on X: bitcoin ETF flows. The latest one shows $442M of net outflows in the most recent week of data, against $54.8B of cumulative net inflows since the US spot ETFs launched in January 2024. One red week, one very large line. This piece is the receipts behind that chart: where the numbers come from, how each one gets checked before it posts, and what two years of flows actually say.",
+      },
+      {
+        type: "statgrid",
+        stats: [
+          { value: "$54.8B", label: "Cumulative net inflows since Jan 2024" },
+          { value: "-$442M", label: "Most recent week of data" },
+          { value: "$62.7B", label: "Peak cumulative, Oct 9, 2025" },
+          { value: "86 vs 55", label: "Inflow vs outflow weeks" },
+        ],
+      },
+      { type: "heading", text: "What two years of flows look like" },
+      {
+        type: "paragraph",
+        text: "The top panel is the cumulative line: every dollar of net flow into every US spot bitcoin ETF, added up day by day since launch. It first crossed $50B on July 9, 2025, peaked at $62.7B on October 9, 2025, and sits at $54.8B as of September 16, 2026.",
+      },
+      {
+        type: "image",
+        src: "/writing/bitcoin-etf-flows.png",
+        alt: "Two-panel chart of US spot bitcoin ETF flows: cumulative net inflows since January 2024 on top, weekly net flows below.",
+        caption:
+          "Cumulative (top) and weekly (bottom) net flows for all US spot bitcoin ETFs, through September 16, 2026. Source: Farside Investors.",
+      },
+      {
+        type: "paragraph",
+        text: "The bottom panel is the same data week by week. Out of 141 weeks since launch, 86 were inflow weeks and 55 were outflow weeks. The best week brought in $3.35B (November 24, 2024). The worst lost $2.62B (March 2, 2025). A $400M red week looks dramatic on a timeline. On this chart it is a normal week.",
+      },
+      {
+        type: "paragraph",
+        text: "2026 has been the choppiest stretch so far: 19 inflow weeks, 19 outflow weeks, about -$1.8B net year to date. The easy one-way bid from 2024 and early 2025 is gone, and weekly prints now swing both ways.",
+      },
+      { type: "heading", text: "How every number gets checked" },
+      {
+        type: "paragraph",
+        text: "The source is the daily flow table that Farside Investors publishes for each US spot bitcoin ETF. A parser pulls that table into a daily CSV, sums the funds into a total per day, aggregates days into weeks, and builds the cumulative path from the daily totals. The code and the data live in a public repo, one folder per chart, so any number I post can be recomputed from scratch.",
+      },
+      {
+        type: "paragraph",
+        text: "The check is the part I care about most. Before anything posts, a script recomputes each claim directly from the committed daily CSV: every weekly total and the full cumulative path, date by date, not just the final value. If an edit to a derived file would make a posted claim wrong, the build fails in CI. It also warns when a number rests on a partial week or a day where some funds have not reported yet, because Farside marks those days provisional.",
+      },
+      {
+        type: "paragraph",
+        text: "If you want to audit the work, clone the repo, run the tests and the verification script, and you get the same numbers I post. That is the point of putting the pipeline in public: the chart is the opinion, the repo is the receipt.",
+      },
+      { type: "heading", text: "How I read it" },
+      {
+        type: "paragraph",
+        text: "Weekly flows are noisy. The cumulative line is what I watch: is the marginal ETF buyer still accumulating? Through 2024 and most of 2025 the answer was an unambiguous yes. In 2026 the honest answer is no, not on net. The line has given back roughly $8B from the October 2025 peak and has moved sideways between about $51B and $58B all year.",
+      },
+      {
+        type: "paragraph",
+        text: "That read matters more than any single green or red week. When the cumulative line starts making new highs again, the flow regime has changed. Until then I expect more of what 2026 has delivered: sharp up weeks, sharp down weeks, and a line that goes nowhere fast. I will keep posting the chart every week either way, from the same checked pipeline.",
+      },
+    ],
+  },
 ];
