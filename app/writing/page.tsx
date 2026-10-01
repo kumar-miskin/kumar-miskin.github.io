@@ -1,3 +1,4 @@
+import SubscribeBox from "@/components/SubscribeBox";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { articles } from "@/lib/content";
@@ -23,6 +24,8 @@ export default function WritingIndex() {
             links back to data and code.
           </p>
         </header>
+
+        <SubscribeBox signupUrl="https://macroreceipts.beehiiv.com/" />
 
         <div className="writing__list">
           {articles.map((a) => (
