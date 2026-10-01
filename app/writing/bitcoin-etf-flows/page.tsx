@@ -1,3 +1,4 @@
+import SubscribeBox from "@/components/SubscribeBox";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -90,6 +91,7 @@ export default function BitcoinEtfFlowsArticle() {
             </ul>
           </footer>
         </article>
+        <SubscribeBox signupUrl="https://macroreceipts.beehiiv.com/" />
       </div>
     </main>
   );
