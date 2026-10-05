@@ -5,14 +5,14 @@ import { articles } from "@/lib/content";
 import ArticleBody from "@/components/ArticleBody";
 import { IconArrowUpRight } from "@/components/icons";
 
-const article = articles.find((a) => a.slug === "bitcoin-etf-flows")!;
+const article = articles.find((a) => a.slug === "macro-receipts-issue-1")!;
 
 export const metadata: Metadata = {
   title: `${article.title} | Kumar Miskin`,
   description: article.description,
 };
 
-export default function BitcoinEtfFlowsArticle() {
+export default function MacroReceiptsIssue1Article() {
   return (
     <main className="article-page">
       <div className="container container--narrow">

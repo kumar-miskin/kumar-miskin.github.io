@@ -253,7 +253,15 @@ export type ArticleBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
   | { type: "list"; items: string[] }
-  | { type: "image"; src: string; alt: string; caption: string }
+  | {
+      type: "image";
+      src: string;
+      alt: string;
+      caption: string;
+      width?: number;
+      height?: number;
+    }
+  | { type: "table"; head: string[]; rows: string[][] }
   | { type: "statgrid"; stats: { value: string; label: string }[] };
 
 export type Article = {
@@ -268,6 +276,227 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+  {
+    slug: "macro-receipts-issue-1",
+    title: "Yields up, gold down, Nasdaq at a record",
+    date: "October 5, 2026",
+    description:
+      "Macro Receipts, issue 1. The 10-year closed the week at 5.28% while gold fell 3.7% and the Nasdaq 100 set a record. Plus bitcoin, the week ahead, and one chart worth the time.",
+    readingTime: "7 min read",
+    tags: ["Macro Receipts", "Bonds", "Gold", "Bitcoin"],
+    links: [
+      {
+        label: "Federal Reserve H.15 (yields)",
+        url: "https://www.federalreserve.gov/releases/h15/",
+      },
+    ],
+    body: [
+      {
+        "type": "paragraph",
+        "text": "*Macro Receipts, Issue 1. Week ending Friday, Oct 2, 2026. Bitcoin and weekend news as of Sunday Oct 4.*"
+      },
+      {
+        "type": "paragraph",
+        "text": "Welcome to the first Macro Receipts. Every Monday: gold, bonds, bitcoin and US tech, plus one chart worth the time. Every number below is recomputed from the daily data, and the sources are listed at the bottom. This one covers the week ending Friday, Oct 2."
+      },
+      {
+        "type": "paragraph",
+        "text": "The short version:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "The Fed is backing off. September payrolls rose 29,000 against about 90,000 expected, and the odds of an October hike fell to roughly one in five.",
+          "Long bonds did not follow. The 10-year closed the week at 5.28%, after touching 5.34% on Thursday, its highest since 2002.",
+          "Gold lost 3.7% on the week to $4,162. It is 21.7% below its January 29 closing high.",
+          "The Nasdaq 100 closed at a record. The Russell 2000 did not come along.",
+          "Bitcoin spent the week between $83,500 and $84,900, then jumped about 2% over the weekend to $86,576."
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Scorecard"
+      },
+      {
+        "type": "table",
+        "head": [
+          "",
+          "Last",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Gold futures",
+            "$4,162",
+            "Week -3.7%, year to date -4.1%"
+          ],
+          [
+            "10-year Treasury yield",
+            "5.28%",
+            "Week +9bp, year to date +111bp"
+          ],
+          [
+            "Dollar index",
+            "101.93",
+            "Week +1.0%, year to date +3.7%"
+          ],
+          [
+            "S&P 500",
+            "7,722.72",
+            "Week -0.3%, year to date +12.8%"
+          ],
+          [
+            "Nasdaq 100",
+            "30,808",
+            "Week +0.7%, year to date +22.0%. Record close."
+          ],
+          [
+            "Russell 2000",
+            "2,832.90",
+            "Week -0.2%, year to date +14.1%"
+          ],
+          [
+            "Bitcoin",
+            "$86,576",
+            "Up 2.6% vs Sept 26, year to date -1.1%. Sunday evening price."
+          ],
+          [
+            "WTI crude",
+            "$91.11",
+            "Week -1.4%, year to date +58.7%"
+          ]
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "*Friday Oct 2 closes. Week is versus the Sept 25 close, year to date versus the Dec 31 close. Yields in basis points (bp). Bitcoin is the Sunday Oct 4 evening (PT) price versus the Sept 26 close, while everything else is Friday's close. Source: Yahoo Finance daily data.*"
+      },
+      {
+        "type": "heading",
+        "text": "Bonds"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Fed raised rates in September, its first hike since 2023. Then the jobs report landed: 29,000 new jobs against about 90,000 expected, with July and August revised down by 60,000 combined. Traders cut the odds of an October hike to about 21%, from 26% before the report."
+      },
+      {
+        "type": "paragraph",
+        "text": "The 2-year yield, which follows the Fed, did what you would expect. It closed Oct 1 at 4.78%, down from 4.92% on Sept 28. The 10-year went the other way: 5.18% a week ago, 5.28% on Friday. Over the quarter it rose from 4.42% to 5.29%, about 87bp. Reuters calls that the biggest quarterly rise since 1994."
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at what is in that 5.24% (Oct 1). The 10-year real yield was 2.88%, so inflation expectations account for only about 2.36%. Lenders want to be paid more to hold ten years of government debt, and weak hiring did not change that. Reuters ties the selloff to the Iran war's push on energy prices and to strained public finances. WTI crude closed Friday at $91.11, up 59% this year."
+      },
+      {
+        "type": "heading",
+        "text": "Gold"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gold futures closed at $4,162.30, down from $4,321.20 a week earlier. Silver did worse, down 6.6%. The dollar index rose 1.0% on the week and sat near a 17-month high on Thursday, which makes gold dearer for everyone who does not hold dollars."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is an actual war on and gold is still falling. My read: this year gold has traded less like fear and more like a bond with no coupon. When a 10-year Treasury pays 2.88% above inflation, a metal that pays nothing has a harder time. The chart below shows how that has played out."
+      },
+      {
+        "type": "heading",
+        "text": "Bitcoin"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bitcoin traded at $86,576 on Sunday evening (Oct 4, Pacific), up 2.6% from its Sept 26 close and 1.1% below where it started the year. It sits 10.7% under its Jan 14 closing high of $96,929 and 38% above its July 3 close of $62,544. Most of the week was flat, with daily closes between $83,503 and $84,853. The jump came over the weekend."
+      },
+      {
+        "type": "paragraph",
+        "text": "US spot bitcoin ETFs took in $82.9 million net for the week, per Farside Investors, even after a large midweek withdrawal. Bitcoin did not trade with yields this week. It sat in a tight range while the 10-year ground higher, and only broke out once the bond market closed."
+      },
+      {
+        "type": "heading",
+        "text": "US tech"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Nasdaq 100 closed at a record 30,808 on Friday, up 0.7% on the week and 22.0% for the year. The tech sector fund XLK also closed at a record and is up 8.8% in a month. The Nasdaq Composite finished at 27,191, 0.2% under its Sept 22 closing high, after hitting a record intraday. CNBC credits a revival in chip stocks after Micron's results."
+      },
+      {
+        "type": "paragraph",
+        "text": "Under the headline it was uneven. Nvidia rose 3.9% on the week to $233.95. Meta fell 3.1% and Apple fell 2.2%. The S&P 500 slipped 0.3% and is 1.0% under its Aug 13 closing high. The Russell 2000 is down 4.1% over the past month and 7.7% under its August high. Tech is carrying the index while the broad market treads water."
+      },
+      {
+        "type": "heading",
+        "text": "The chart worth the time"
+      },
+      {
+        "type": "image",
+        "src": "/writing/macro-receipts-issue-1-chart.png",
+        "alt": "Gold futures and the 10-year Treasury yield, Jan 2 to Oct 2, 2026",
+        "caption": "Gold futures and the 10-year Treasury yield, daily closes, Jan 2 to Oct 2, 2026. Source: Yahoo Finance (GC=F, ^TNX); the 10-year matches the Federal Reserve H.15 release through Oct 1.",
+        "width": 1600,
+        "height": 896
+      },
+      {
+        "type": "paragraph",
+        "text": "Gold closed at $5,318 on Jan 29. Since then the 10-year yield has gone from 4.23% to 5.28%, up 105bp, and gold has lost 21.7%. Over 37 non-overlapping five-day windows this year, the correlation between gold's percent change and the yield's change is -0.44. Negative and meaningful, but nowhere near a law."
+      },
+      {
+        "type": "paragraph",
+        "text": "It also broke down for a stretch. From July 16 to Sept 3 gold climbed from $3,992 to $4,540 while the 10-year rose from 4.57% to 4.76%. Gold and yields can rise together when the fear trade is strong. Since Sept 3, that trade has lost, and yields have won."
+      },
+      {
+        "type": "heading",
+        "text": "This week"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Mon, 10:00 ET: ISM services**: September reading. Expected 55.1 versus 55.4 before. Watch prices paid.",
+          "**Wed, 1:01 ET: 10-year auction**: Demand at this auction tells you if buyers show up at 5.2% and up.",
+          "**Wed, 2:00 ET: Fed minutes**: From the Sept 15-16 meeting, so they predate the jobs report.",
+          "**Thu, 1:01 ET: 30-year auction**: Same test, longer. Jobless claims are expected near 200,000.",
+          "**Thu and Fri: PepsiCo, Delta**: Earnings season starts quietly. Friday also brings Michigan consumer sentiment."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The next Fed decision is Oct 28. Prediction markets put a December hike at roughly 73%, so one weak jobs report has not changed the plan. Mid-October inflation data matters more than anything the Fed says this week."
+      },
+      {
+        "type": "paragraph",
+        "text": "One thing from the weekend: CNBC reports at least two more tankers were struck near Oman and in the Strait of Hormuz, and Iran says the strait stays closed until its conditions for ending the war are met. WTI was near $90.65 at the Sunday evening open. Oil is what keeps the yield story alive, so watch it on Monday."
+      },
+      {
+        "type": "heading",
+        "text": "The close"
+      },
+      {
+        "type": "paragraph",
+        "text": "That is issue one. If something here is wrong, hit reply and tell me. I read every reply, and I fix mistakes in the open. Next Monday: whatever the auctions say about the long end."
+      },
+      {
+        "type": "paragraph",
+        "text": "Kumar"
+      },
+      {
+        "type": "heading",
+        "text": "Sources and method"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Prices: Yahoo Finance daily closes, pulled Oct 3, bitcoin and weekend oil refreshed Oct 4. Percent and basis-point changes computed from those closes. Yahoo is an unofficial source.",
+          "10-year, 2-year and real yields: Federal Reserve H.15, through Oct 1 (federalreserve.gov/Releases/H15).",
+          "Payrolls, hike odds, quarterly yield move, Iran war and oil: Reuters via MarketScreener, Oct 2.",
+          "Gold, dollar index and 17-month high: Investing.com, Oct 2. December hike odds: Trestlewire, Oct 3 (prediction markets, not a Fed forecast).",
+          "Weekend tanker strikes and Hormuz: CNBC, Oct 4. Bitcoin ETF flows: Farside Investors via Coinspress, Oct 3. Week ahead calendar: investingLive and Seeking Alpha, Oct 2. Tech and chips context: CNBC, Oct 2."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "*Not investment advice. Charts and numbers are for information only.*"
+      }
+    ],
+  },
   {
     slug: "bitcoin-etf-flows",
     title: "Bitcoin ETF flows: the receipts behind the chart",
