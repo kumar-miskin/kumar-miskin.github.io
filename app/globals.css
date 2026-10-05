@@ -1354,3 +1354,42 @@ button {
 .newsletter-box__button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .newsletter-box__note { color: var(--muted); font-size: .85rem; }
 @media (max-width: 480px) { .newsletter-box { padding: 22px; } }
+
+/* Article tables */
+.article-body__table-wrap {
+  margin: 28px 0;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.article-body__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+.article-body__table th,
+.article-body__table td {
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-body__table th {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.article-body__table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.article-body__table td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+}
