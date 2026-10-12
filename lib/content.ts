@@ -276,6 +276,231 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+{
+  "slug": "macro-receipts-issue-3",
+  "title": "Bitcoin fell 2.3%. Its volume says less than you think.",
+  "date": "October 12, 2026",
+  "description": "A quieter week for bitcoin, the Mag 7 comparison, and why trading volume says more about the size of a move than its direction.",
+  "readingTime": "7 min read",
+  "tags": [
+    "Macro Receipts",
+    "Bitcoin",
+    "Liquidity",
+    "Data"
+  ],
+  "links": [
+    {
+      "label": "Yahoo Finance daily price and volume history (retrieved October 10, 2026)",
+      "url": "https://finance.yahoo.com/"
+    },
+    {
+      "label": "Yahoo equity column definitions",
+      "url": "https://finance.yahoo.com/quote/MSFT/history/?fr=sycsrp_catchall"
+    },
+    {
+      "label": "Yahoo crypto provider",
+      "url": "https://coinmarketcap.com/academy/article/how-yahoo-finance-powers-its-crypto-data-with-coinmarketcap-api"
+    }
+  ],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "*Macro Receipts, Issue 3. Week ending Friday, Oct 9, 2026. Bitcoin and weekend news as of Sunday Oct 11.*"
+    },
+    {
+      "type": "heading",
+      "text": "Bitcoin vs the Mag 7, in dollars"
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-3-chart-1.png",
+      "alt": "Stacked bars of weekly average dollars traded per US session in bitcoin spot, spot bitcoin funds and MSTR, with the Magnificent 7 as a line, April to October 2026. Bitcoin-linked trading is $38.3 billion per session this week against $85.9 billion for the Mag 7. A lower panel shows bitcoin-linked trading at 45% of the Mag 7.",
+      "caption": "Average dollars traded per US equity session, by week, in billions. Sessions are NYSE trading days only, so bitcoin weekends and holidays are left out of both sides. Bitcoin-linked = BTC spot + ten US spot bitcoin funds (including IBIT) + MSTR. Gross trading, not net flows. Source: Yahoo Finance daily history, retrieved Oct 10, 2026.",
+      "width": 1600,
+      "height": 1152
+    },
+    {
+      "type": "paragraph",
+      "text": "This week bitcoin-linked trading averaged $38.3 billion per session: $33.0 billion in spot, $3.05 billion in MSTR, and $2.21 billion across the funds, of which IBIT was $1.82 billion. The Mag 7 averaged $85.9 billion, and Nvidia alone $24.2 billion."
+    },
+    {
+      "type": "paragraph",
+      "text": "The ratio looks like a bitcoin win: bitcoin-linked trading was 45% of the Mag 7, against 38% over the last 13 weeks. Read the bars before you celebrate. Bitcoin-linked trading was 1.6% above its own 12-week average. The Mag 7 was 13.7% below its. The gap narrowed because the big stocks cooled, not because bitcoin picked up. And $38.3 billion is 17% under the $46.1 billion per-session average I used in Issue 2 for the past 200 sessions."
+    },
+    {
+      "type": "heading",
+      "text": "The pushback"
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-3-chart-2.png",
+      "alt": "Scatter plot of 250 US sessions. The horizontal axis is the size of bitcoin's daily price move in percent, the vertical axis is bitcoin-linked dollars traded. Dots rise to the right. Green dots are up days and red dots are down days, mixed throughout.",
+      "caption": "One dot per US session, last 250 sessions to Oct 9, 2026. Price move is UTC close to close. Labeled dots are this week. Source: Yahoo Finance.",
+      "width": 1600,
+      "height": 896
+    },
+    {
+      "type": "paragraph",
+      "text": "The line you will read this week is that bitcoin is sliding on \"low volume\". It was a quiet week, and the ETFs did lose money: US spot funds shed $484.9 million on Wednesday and about $244 million on Thursday, per The Crypto News, citing fund flow data. But volume is not a direction signal."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the last 250 sessions, the 25 biggest price moves (about 4.4% or more in either direction) averaged $81 billion of bitcoin-linked trading. Every other session averaged $50 billion. Of those 25 days, 14 were up and 11 were down. Volume follows how far the price moves, not which way. The size of the move explains about a quarter of the swings in volume (R squared 0.25). So low volume mostly says the week was calm. It was a 2.3% drop with one session, Thursday, above $50 billion ($52.9 billion, with bitcoin down 1.9%)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fair warning on the other side: the busiest 25 sessions of the year skew down, 16 down to 9 up, and that window includes last October's crash. Volume spikes are more often a selloff than a rally. Even so, \"volume has to come back before it can rise\" is a story, not a test."
+    },
+    {
+      "type": "heading",
+      "text": "Scorecard"
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Last",
+        "Change"
+      ],
+      "rows": [
+        [
+          "Gold futures",
+          "$4,216",
+          "Week +1.3%, year to date -2.9%"
+        ],
+        [
+          "10-year Treasury yield",
+          "5.24%",
+          "Week -3bp, year to date +108bp"
+        ],
+        [
+          "Dollar index",
+          "102.21",
+          "Week +0.3%, year to date +4.0%"
+        ],
+        [
+          "S&P 500",
+          "7,811.5",
+          "Week +1.2%, year to date +14.1%. Record close Tuesday."
+        ],
+        [
+          "Nasdaq 100",
+          "30,883",
+          "Week +0.2%, year to date +22.3%. Record close Tuesday."
+        ],
+        [
+          "Russell 2000",
+          "2,807",
+          "Week -0.9%, year to date +13.1%"
+        ],
+        [
+          "Bitcoin",
+          "$82,546",
+          "Week -2.3% to Fri close, year to date -5.7%. Sunday evening (PT) price was about $83,750."
+        ],
+        [
+          "WTI crude",
+          "$91.85",
+          "Week +0.8%, year to date +60.0%"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Friday Oct 9 closes. Week is versus the Oct 2 close, year to date versus the Dec 31 close. Yields in basis points (bp). Bitcoin is the UTC daily close, as on the charts. Source: Yahoo Finance daily data.*"
+    },
+    {
+      "type": "heading",
+      "text": "Bonds and the Fed"
+    },
+    {
+      "type": "paragraph",
+      "text": "The 10-year closed the week at 5.24%, 3bp lower than a week ago. Monday it closed at 5.31%, the high for the year. Reuters says it touched a 24-year high on Wednesday. The 2-year ended at 4.79%."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Fed minutes on Wednesday said officials expect another rate hike before year end, with no sign of when. CNBC reads that as a December question. The next decisions are Oct 28 and Dec 9. Consumers are not enjoying this: the University of Michigan survey put sentiment at 46.3 (Invested Alpha), and Reuters says near-term expectations hit an all-time low."
+    },
+    {
+      "type": "heading",
+      "text": "Gold"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gold futures closed at $4,216, up 1.3% on the week, with Friday its best day in about five weeks. That leaves gold 20.7% below its Jan 29 closing high of $5,318. Gold rose while the 10-year barely moved, which fits what Issue 1 showed: it has been trading against yields, and when yields pause it gets to breathe."
+    },
+    {
+      "type": "heading",
+      "text": "Bitcoin"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitcoin closed Friday at $82,546, down 2.3% on the week, 5.7% below where it started the year and 28.4% below last October's close high of $115,271. It rose 1.5% on Monday, to $85,787, then gave it all back: $83,276 Wednesday, $81,676 Thursday, with an intraday low of $80,427. Saturday closed at $82,912, and it was near $83,750 Sunday evening. The US government moved about $1.44 billion of bitcoin during the week, per Block Insider, which I could not tie to a sale."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sizing it, in the same units as Chart 1: MSTR traded $3.05 billion a session this week, 13% above its 12-week average, while the funds were 8.7% below theirs. MSTR closed at $154.34 (down 3.5%) and IBIT at $46.55 (down 2.5%)."
+    },
+    {
+      "type": "heading",
+      "text": "US tech"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Nasdaq 100 rose 0.2% to 30,883, below Tuesday's record close of 31,224. The S&P 500 finished at 7,811.5, up 1.2% for the week, and 0.1% under its Tuesday record. The Russell 2000 fell 0.9%. Microsoft rose 3.4% to $535.07, Nvidia fell 2.0% to $229.28, Tesla rose 3.3% to $382.70."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reuters called it a tepid rally with no edge on Iran headlines. President Trump said the US will not strike Iran before the midterms and called talks productive, but CNBC reports tanker attacks in the Strait of Hormuz hit a wartime high, and WTI settled at $91.85. CNN adds on Sunday that Iran has struck more than a dozen ships since the end of September and that crude is staying above $100 a barrel (that is Brent, not WTI)."
+    },
+    {
+      "type": "heading",
+      "text": "This week"
+    },
+    {
+      "type": "list",
+      "items": [
+        "**Mon, Oct 12: Columbus Day**: US stocks trade. The cash Treasury market is closed, so there is no 10-year print that day.",
+        "**Tue, Oct 13: JPMorgan earnings**: Expected EPS $5.90. The first big bank report. Wells Fargo, Goldman, Citi, Bank of America and Morgan Stanley follow.",
+        "**Wed, Oct 14: September CPI**: Forecast headline +0.6% on the month and 3.6% on the year. Core +0.2% on the month (CMC Markets)."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "S&P 500 earnings growth is expected near 30% for the quarter (LSEG via Reuters), with tech at 66.5%. CPI is the number that decides whether the Fed minutes turn into a December hike. Bitfinex analysts see it as the trigger that could break the $84,000 to $87,722 range, which bitcoin has now fallen out of on the low side."
+    },
+    {
+      "type": "heading",
+      "text": "The close"
+    },
+    {
+      "type": "paragraph",
+      "text": "That is issue three. If a number is wrong, reply and tell me. I read every reply and fix mistakes in the open. Next Monday: what CPI did to all of the above."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kumar"
+    },
+    {
+      "type": "heading",
+      "text": "Sources and method"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prices and volumes: Yahoo Finance daily history for BTC-USD, MSTR, IBIT, FBTC, ARKB, BITB, GBTC, BTCO, HODL, BRRR, EZBC, BTCW and NVDA, MSFT, AAPL, GOOGL, AMZN, META, TSLA, retrieved Oct 10, 2026. Dollar volume = daily close times share volume (BTC-USD volume is already in dollars). Unofficial source; Yahoo credited as in Issue 2.",
+        "Matched sessions: only dates when US equities traded; each weekly average is per session. Gross trading across all channels can overlap and is not net flows.",
+        "Market close, Iran, earnings expectations, Michigan expectations: Reuters via Yahoo Finance, Oct 9. Market recap: Kiplinger, Oct 9. Sentiment 46.3 and gold best day: Invested Alpha, Oct 9.",
+        "Weekend Hormuz update: CNN, Oct 11. Bitcoin Sunday price: Yahoo Finance live quote, Oct 11. Fed minutes: CNBC, Oct 7. Bitcoin ETF flows, $80,427 low, Bitfinex range: The Crypto News, Oct 9. Government transfer: Block Insider, Oct 9. Tanker attacks: CNBC, Oct 9.",
+        "Week ahead: CMC Markets, Oct 9 (JPMorgan, CPI forecasts). Core CPI forecast is a single-source figure."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Not investment advice. Charts and numbers are for information only.*"
+    }
+  ]
+},
   {
     slug: "macro-receipts-issue-2",
     title: "Bitcoin's price recovered. Its trading intensity didn't.",
