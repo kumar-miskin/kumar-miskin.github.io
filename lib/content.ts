@@ -313,7 +313,7 @@ export const articles: Article[] = [
     },
     {
       "type": "image",
-      "src": "/writing/macro-receipts-issue-3-chart-1.png",
+      "src": "/writing/macro-receipts-issue-3-chart-1.svg",
       "alt": "Stacked bars of weekly average dollars traded per US session in bitcoin spot, spot bitcoin funds and MSTR, with the Magnificent 7 as a line, April to October 2026. Bitcoin-linked trading is $38.3 billion per session this week against $85.9 billion for the Mag 7. A lower panel shows bitcoin-linked trading at 45% of the Mag 7.",
       "caption": "Average dollars traded per US equity session, by week, in billions. Sessions are NYSE trading days only, so bitcoin weekends and holidays are left out of both sides. Bitcoin-linked = BTC spot + ten US spot bitcoin funds (including IBIT) + MSTR. Gross trading, not net flows. Source: Yahoo Finance daily history, retrieved Oct 10, 2026.",
       "width": 1600,
@@ -333,7 +333,7 @@ export const articles: Article[] = [
     },
     {
       "type": "image",
-      "src": "/writing/macro-receipts-issue-3-chart-2.png",
+      "src": "/writing/macro-receipts-issue-3-chart-2.svg",
       "alt": "Scatter plot of 250 US sessions. The horizontal axis is the size of bitcoin's daily price move in percent, the vertical axis is bitcoin-linked dollars traded. Dots rise to the right. Green dots are up days and red dots are down days, mixed throughout.",
       "caption": "One dot per US session, last 250 sessions to Oct 9, 2026. Price move is UTC close to close. Labeled dots are this week. Source: Yahoo Finance.",
       "width": 1600,
