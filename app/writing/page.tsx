@@ -25,7 +25,7 @@ export default function WritingIndex() {
           </p>
         </header>
 
-        <SubscribeBox signupUrl="https://macroreceipts.beehiiv.com/" />
+        <SubscribeBox signupUrl="https://miskinkp.substack.com/subscribe" />
 
         <div className="writing__list">
           {articles.map((a) => (
