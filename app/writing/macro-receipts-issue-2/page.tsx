@@ -51,7 +51,7 @@ export default function MacroReceiptsIssue2Article() {
             </ul>
           </footer>
         </article>
-        <SubscribeBox signupUrl="https://macroreceipts.beehiiv.com/" />
+        <SubscribeBox signupUrl="https://miskinkp.substack.com/subscribe" />
       </div>
     </main>
   );
