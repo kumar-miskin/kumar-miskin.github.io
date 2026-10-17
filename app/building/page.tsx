@@ -19,8 +19,9 @@ export default function BuildingPage() {
         <header className="article-page__header">
           <h1 className="article-page__title">Building</h1>
           <p className="article-page__lede">
-            What I&apos;m shipping, pulled live from the GitHub API: recent
-            activity, my repos, and the state of my upstream contributions.
+            What I&apos;m shipping: recent activity, my repos, and the state
+            of my upstream contributions. Live from the GitHub API when
+            available, with a timestamped snapshot as fallback.
           </p>
         </header>
         <BuildingLive />
