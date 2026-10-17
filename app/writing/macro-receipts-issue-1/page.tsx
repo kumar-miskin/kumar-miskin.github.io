@@ -8,6 +8,7 @@ import { IconArrowUpRight } from "@/components/icons";
 const article = articles.find((a) => a.slug === "macro-receipts-issue-1")!;
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/writing/macro-receipts-issue-1" },
   title: `${article.title} | Kumar Miskin`,
   description: article.description,
 };

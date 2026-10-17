@@ -15,6 +15,27 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Kumar Miskin",
+  url: "https://kumar-miskin.github.io",
+  jobTitle: "Machine Learning Engineer",
+  affiliation: [
+    { "@type": "CollegeOrUniversity", name: "Johns Hopkins University" },
+    { "@type": "Organization", name: "Lawrence Livermore National Laboratory" },
+  ],
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "Indian Institute of Technology Bombay",
+  },
+  sameAs: [
+    "https://github.com/kumar-miskin",
+    "https://www.linkedin.com/in/kumar-miskin",
+    "https://twitter.com/KumarMiskin",
+  ],
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://kumar-miskin.github.io"),
   title: "Kumar Miskin — Machine Learning Engineer",
@@ -48,8 +69,21 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Script id="theme-init" strategy="beforeInteractive">
           {`(function(){try{var t=localStorage.getItem("theme");if(!t){t=window.matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","dark");}})();`}
         </Script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        {process.env.NODE_ENV === "production" && (
+          <Script
+            data-goatcounter="https://kumar-miskin.goatcounter.com/count"
+            src="https://gc.zgo.at/count.js"
+            strategy="afterInteractive"
+          />
+        )}
+      </body>
     </html>
   );
 }

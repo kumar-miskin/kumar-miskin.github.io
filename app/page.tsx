@@ -29,6 +29,12 @@ import {
   stats,
 } from "@/lib/content";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
+
 const socials = [
   { label: "GitHub", href: profile.githubUrl, Icon: IconGithub },
   { label: "LinkedIn", href: profile.linkedinUrl, Icon: IconLinkedin },
