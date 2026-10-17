@@ -34,6 +34,10 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          # GoatCounter stays off unless this repository variable is set to a
+          # verified account code (Actions -> Variables). Absent = no snippet.
+          NEXT_PUBLIC_GOATCOUNTER_CODE: ${{ vars.NEXT_PUBLIC_GOATCOUNTER_CODE }}
         run: npm run build
 
       - name: Upload artifact
