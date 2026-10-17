@@ -5,6 +5,7 @@ import { articles } from "@/lib/content";
 import { IconArrowUpRight } from "@/components/icons";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/writing" },
   title: "Writing | Kumar Miskin",
   description:
     "Notes and receipts: longer writeups behind the charts and analysis I post, with the data and code linked so every number can be checked.",

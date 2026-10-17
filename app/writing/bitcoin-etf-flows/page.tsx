@@ -8,6 +8,7 @@ import { IconArrowUpRight } from "@/components/icons";
 const article = articles.find((a) => a.slug === "bitcoin-etf-flows")!;
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/writing/bitcoin-etf-flows" },
   title: `${article.title} | Kumar Miskin`,
   description: article.description,
 };
