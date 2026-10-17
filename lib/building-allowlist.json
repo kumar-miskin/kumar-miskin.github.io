@@ -1,0 +1,32 @@
+{
+  "featuredRepos": [
+    "materials-ml-tools",
+    "onchain-research-notebooks",
+    "bitcoin-macro-lab",
+    "btc-macro-analysis",
+    "kumar-miskin.github.io"
+  ],
+  "upstreamPrs": [
+    { "repo": "mir-group/nequip", "number": 614 },
+    { "repo": "mir-group/nequip", "number": 616 },
+    { "repo": "ACEsuit/mace", "number": 1753 },
+    { "repo": "pyro-ppl/pyro", "number": 3496 },
+    { "repo": "petertodd/python-bitcoinlib", "number": 329 },
+    { "repo": "metatensor/featomic", "number": 447 }
+  ],
+  "eventRepos": [
+    "kumar-miskin/materials-ml-tools",
+    "kumar-miskin/onchain-research-notebooks",
+    "kumar-miskin/bitcoin-macro-lab",
+    "kumar-miskin/btc-macro-analysis",
+    "kumar-miskin/kumar-miskin.github.io",
+    "kumar-miskin/featomic",
+    "kumar-miskin/metatomic",
+    "mir-group/nequip",
+    "ACEsuit/mace",
+    "pyro-ppl/pyro",
+    "petertodd/python-bitcoinlib",
+    "metatensor/featomic",
+    "metatensor/metatomic"
+  ]
+}
