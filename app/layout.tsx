@@ -76,9 +76,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body>
         {children}
-        {process.env.NODE_ENV === "production" && (
+        {process.env.NEXT_PUBLIC_GOATCOUNTER_CODE && (
           <Script
-            data-goatcounter="https://kumar-miskin.goatcounter.com/count"
+            data-goatcounter={`https://${process.env.NEXT_PUBLIC_GOATCOUNTER_CODE}.goatcounter.com/count`}
             src="https://gc.zgo.at/count.js"
             strategy="afterInteractive"
           />

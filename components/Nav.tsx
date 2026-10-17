@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { navLinks, profile } from "@/lib/content";
+import { navLinks, pageLinks, profile } from "@/lib/content";
 import { IconClose, IconMenu } from "./icons";
 import ThemeToggle from "./ThemeToggle";
 
@@ -61,6 +61,11 @@ export default function Nav() {
               {link.label}
             </a>
           ))}
+          {pageLinks.map((link) => (
+            <a key={link.href} href={link.href}>
+              {link.label}
+            </a>
+          ))}
         </nav>
 
         <div className="nav__actions">
@@ -87,6 +92,11 @@ export default function Nav() {
 
       <div className={`nav__mobile ${open ? "is-open" : ""}`}>
         {navLinks.map((link) => (
+          <a key={link.href} href={link.href} onClick={() => setOpen(false)}>
+            {link.label}
+          </a>
+        ))}
+        {pageLinks.map((link) => (
           <a key={link.href} href={link.href} onClick={() => setOpen(false)}>
             {link.label}
           </a>

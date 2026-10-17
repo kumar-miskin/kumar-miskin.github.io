@@ -15,6 +15,17 @@ const UPSTREAM_PRS = [
   { repo: "metatensor/featomic", number: 447 },
 ];
 
+// curated list of public repos shown on this page: shipped tools and
+// already-published analysis only. Research code tied to unpublished work
+// is deliberately excluded even when its repo is public.
+const FEATURED_REPOS = [
+  "materials-ml-tools",
+  "onchain-research-notebooks",
+  "bitcoin-macro-lab",
+  "btc-macro-analysis",
+  "kumar-miskin.github.io",
+];
+
 type GhEvent = {
   type: string;
   created_at: string;
@@ -71,20 +82,23 @@ export default function BuildingLive() {
 
     async function load() {
       try {
-        const [evRes, repoRes] = await Promise.all([
+        const [evRes, ...repoRes] = await Promise.all([
           fetch(`${API}/users/${USER}/events/public?per_page=100`),
-          fetch(`${API}/users/${USER}/repos?per_page=100&sort=pushed`),
+          ...FEATURED_REPOS.map((name) => fetch(`${API}/repos/${USER}/${name}`)),
         ]);
-        if (evRes.status === 403 || repoRes.status === 403) {
+        if (evRes.status === 403 || repoRes.some((r) => r.status === 403)) {
           if (!cancelled) setLimited(true);
           return;
         }
-        if (!evRes.ok || !repoRes.ok) throw new Error("github api error");
+        if (!evRes.ok || repoRes.some((r) => !r.ok))
+          throw new Error("github api error");
         const ev = (await evRes.json()) as GhEvent[];
-        const rp = (await repoRes.json()) as GhRepo[];
+        const rp = (await Promise.all(
+          repoRes.map((r) => r.json())
+        )) as GhRepo[];
         if (cancelled) return;
         setEvents(ev);
-        setRepos(rp.filter((r) => !r.fork).slice(0, 8));
+        setRepos(rp);
       } catch {
         if (!cancelled) setLimited(true);
       }

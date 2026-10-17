@@ -249,6 +249,8 @@ export const navLinks = [
   { label: "Contact", href: "#contact" },
 ];
 
+export const pageLinks = [{ label: "Building", href: "/building" }];
+
 export type ArticleBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
