@@ -279,6 +279,320 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "macro-receipts-issue-4",
+  "title": "Tech fell 5.5%. Bitcoin fell 1.3%. That is not decoupling.",
+  "date": "October 19, 2026",
+  "description": "Week ending Oct 16: the CPI aftermath, bitcoin vs the Mag 7 in dollars, and a fix to Issue 3.",
+  "readingTime": "8 min read",
+  "tags": [
+    "Macro Receipts",
+    "Bitcoin",
+    "CPI",
+    "Data"
+  ],
+  "links": [
+    {
+      "label": "Yahoo Finance daily price and volume history (retrieved October 18, 2026)",
+      "url": "https://finance.yahoo.com/"
+    },
+    {
+      "label": "CNBC, Oct 14: Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    },
+    {
+      "label": "CNBC, Oct 16: U.S. Treasury yields waver as traders wrap up volatile week",
+      "url": "https://www.cnbc.com/2026/10/16/us-treasury-yields-investors-hot-inflation-data-.html"
+    },
+    {
+      "label": "CNBC, Oct 16: U.S. crude oil tops $100 as Iran escalates Hormuz attacks",
+      "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
+    },
+    {
+      "label": "NBC News, Oct 16: Tech stocks erase $1 trillion of wealth as oil surges to $110",
+      "url": "https://www.nbcnews.com/business/energy/oil-prices-hormuz-iran-ukraine-rcna603919"
+    },
+    {
+      "label": "Investing.com, Oct 16: Nasdaq notches worst week since late June with a 4.5% slide",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-edge-lower-as-ai-spending-fed-rate-concerns-weigh-4952930"
+    },
+    {
+      "label": "Yahoo Finance, Oct 16: Strategy stock falls 10% as Michael Saylor's bitcoin giant faces index-level threat",
+      "url": "https://finance.yahoo.com/markets/crypto/article/strategy-stock-falls-10-as-michael-saylors-bitcoin-giant-faces-index-level-threat-193944684.html"
+    },
+    {
+      "label": "Decrypt: Bitcoin ETFs shed nearly $1 billion in two weeks",
+      "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red"
+    },
+    {
+      "label": "CNBC, Oct 13: Bank earnings October 2026: Live updates",
+      "url": "https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html"
+    },
+    {
+      "label": "AP, Oct 13: JPMorgan, Citi, Goldman and Wells Fargo earnings",
+      "url": "https://apnews.com/article/jpmorgan-citi-goldman-wells-banks-earnings-bonds-f3e3daf4ebed0e99a744aa7bac5e86ee"
+    },
+    {
+      "label": "AP, Oct 16: Fed chair Warsh pledges price stability but avoids hints about rates",
+      "url": "https://apnews.com/article/us-economy-warsh-fed-ai-imf-4c80750c113a82a464a46f58a4fdab43"
+    },
+    {
+      "label": "CNBC, Oct 18: Meta, Tesla earnings preview: Week of Oct. 19",
+      "url": "https://www.cnbc.com/2026/10/18/meta-tesla-netflix-earnings-preview.html"
+    },
+    {
+      "label": "Investopedia: What to expect in markets this week",
+      "url": "https://www.investopedia.com/what-to-expect-in-markets-this-week-meta-tesla-report-airlines-streaming-giants-results-also-due-earnings-12173877"
+    }
+  ],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Welcome back. Three charts this week, then what CPI did, which is what I promised last Monday. Every number is recomputed from the daily data, and the sources are at the bottom."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-4-chart-1.png",
+      "alt": "Indexed lines from the Fri Oct 9 close = 100 across the week ending Oct 16, 2026. Gold futures ends down 0.8%, bitcoin down 1.3%, the S&P 500 down 1.9%, the Nasdaq 100 down 5.5%, and MSTR down 11.3%. Annotations mark Wednesday's hotter-than-forecast CPI and Friday's MSCI index rule news.",
+      "caption": "Fri Oct 9 close = 100. US session dates. Bitcoin is the UTC daily close. Source: Yahoo Finance, retrieved Oct 18, 2026.",
+      "width": 1460,
+      "height": 880
+    },
+    {
+      "type": "paragraph",
+      "text": "The Nasdaq 100 lost 5.5% on the week and the S&P 500 lost 1.9%. Bitcoin fell 1.3%. MSTR, the company that holds a pile of it, fell 11.3%, including 9.6% on Friday alone."
+    },
+    {
+      "type": "heading",
+      "text": "Bitcoin vs the Mag 7, in dollars"
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-4-chart-2.png",
+      "alt": "Stacked bars of weekly average dollars traded per US session in bitcoin spot, spot bitcoin funds and MSTR, with the Magnificent 7 as a line, April to October 2026. Bitcoin-linked trading is $36.8 billion per session this week against $93.0 billion for the Mag 7. A lower panel shows bitcoin-linked trading at 40% of the Mag 7.",
+      "caption": "Average dollars traded per US equity session, by week, in billions. Sessions are NYSE trading days only, so bitcoin weekends and holidays are left out of both sides. Bitcoin-linked = BTC spot + ten US spot bitcoin funds (including IBIT) + MSTR. Gross trading, not net flows. Source: Yahoo Finance daily history, retrieved Oct 18, 2026.",
+      "width": 1460,
+      "height": 1200
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitcoin-linked trading averaged $36.8 billion per session this week: $31.9 billion in spot, $2.92 billion in MSTR, and $1.97 billion across the funds, of which IBIT was $1.63 billion. The Mag 7 averaged $93.0 billion, up 8.1% from last week."
+    },
+    {
+      "type": "paragraph",
+      "text": "That makes bitcoin-linked trading 39.6% of the Mag 7, down from 44.5% last week and about even with the 13-week average of 39.1%. The bars say the same thing without the ratio. Bitcoin-linked trading was 3.8% below last week and 3.7% below its own 12-week average, and $36.8 billion is about 20% under the $46.1 billion 200-session average I used in Issue 2. The funds were the quiet part, 20% below their 12-week average. MSTR was 2.2% above its. The busiest session was Thursday, at $47.6 billion."
+    },
+    {
+      "type": "heading",
+      "text": "The pushback: \"bitcoin decoupled from tech\""
+    },
+    {
+      "type": "paragraph",
+      "text": "I saw this line a few times after Friday. Bitcoin fell 1.3% while the Nasdaq 100 fell 5.5%, so the story goes that bitcoin has cut the cord. The data does not say that."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-4-chart-3.png",
+      "alt": "Scatter plot of 250 US sessions. The horizontal axis is the Nasdaq 100 daily move in percent, the vertical axis is bitcoin's move over the same sessions. A dashed line shows bitcoin moving about 0.98% for each 1% in the Nasdaq 100. This week's dark dots cluster near zero on both axes, labeled 10-12 through 10-16.",
+      "caption": "One dot per US session, last 250 sessions to Oct 16, 2026. Dark dots are this week. Bitcoin is the UTC close, which lands 4 hours after the Nasdaq close. Source: Yahoo Finance.",
+      "width": 1460,
+      "height": 980
+    },
+    {
+      "type": "list",
+      "items": [
+        "Over the last 250 sessions, the daily correlation between bitcoin and the Nasdaq 100 is 0.44. Bitcoin has moved about 0.98% for each 1% in the Nasdaq 100.",
+        "Over overlapping five-session windows the fitted line has a slope of 0.85 and a drift term of -0.8 points, because bitcoin has been trending down over this stretch. For a 5.5% Nasdaq 100 drop it predicts about 5.4% down for bitcoin. Drop the drift term and it is still about 4.7%. Bitcoin fell 1.3%. So it did hold up better than usual.",
+        "But it fell on both big Nasdaq days this week: 1.8% on Wednesday (Nasdaq 100 down 2.0%) and 0.8% on Friday (down 2.5%). Across the 250 sessions, the Nasdaq 100 fell 2% or more on 11 days, and bitcoin fell on 10 of them, 3.0% on average.",
+        "In earlier five-session windows where the Nasdaq 100 fell 4% or more, bitcoin averaged about 8.9% down (12 windows, which overlap). Only one, the week of Jul 17 at 0.4% down, held up better than this week."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "So: a smaller drop, same direction. One limit of this data: bitcoin's daily close is 4 hours after the stock close, so the two moves do not cover identical hours. Sunday evening bitcoin was around $82,400 on Yahoo, which is a bounce, but it is one week."
+    },
+    {
+      "type": "heading",
+      "text": "What CPI did"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wednesday's September CPI came in hot. Headline was +0.6% on the month and 3.7% on the year, against 0.6% and 3.6% expected. Core was +0.3% and 2.6%, against 0.2% and 2.5% (CNBC). Gasoline rose 9.1% on the month and was about half of the headline gain. The Fed raised 25bp in September, to 3.75%-4%, and its next meeting is Oct 27 and 28."
+    },
+    {
+      "type": "paragraph",
+      "text": "Wednesday's moves, against Tuesday's closes: Nasdaq 100 down 2.0%, S&P 500 down 1.1%, gold down 1.7%, MSTR down 5.9%, bitcoin down 1.8%. The 10-year yield jumped when the number hit, then closed at 5.19%, 3bp lower on the day."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thursday's PPI was worse: +6.3% on the year against 5.5% expected (CNBC). Fed Chair Warsh would not signal on rates: \"I don't prejudge meetings,\" he said Thursday (CNBC, AP)."
+    },
+    {
+      "type": "heading",
+      "text": "Scorecard"
+    },
+    {
+      "type": "table",
+      "head": [
+        "",
+        "Last",
+        "Change"
+      ],
+      "rows": [
+        [
+          "Gold futures",
+          "$4,181",
+          "Week -0.8%, year to date -3.7%. 21.4% below the Jan 29 high of $5,318."
+        ],
+        [
+          "10-year Treasury yield",
+          "5.10%",
+          "Week -15bp, year to date +93bp."
+        ],
+        [
+          "Dollar index",
+          "101.84",
+          "Week -0.4%, year to date +3.6%."
+        ],
+        [
+          "S&P 500",
+          "7,659",
+          "Week -1.9%, year to date +11.9%. 2.0% below the Oct 6 high."
+        ],
+        [
+          "Nasdaq 100",
+          "29,188",
+          "Week -5.5%, year to date +15.6%. 6.5% below the Oct 6 high."
+        ],
+        [
+          "Russell 2000",
+          "2,721",
+          "Week -3.1%, year to date +9.7%."
+        ],
+        [
+          "Bitcoin",
+          "$81,501",
+          "Week -1.3% to the Friday close, year to date -6.9%. Sunday evening (PT) it was about $82,400."
+        ],
+        [
+          "WTI crude",
+          "$101.41",
+          "Week +10.4%, year to date +76.6%. Brent closed at $109.86."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Friday Oct 16 closes. Week is versus the Oct 9 close, year to date versus the Dec 31 close. Yields in basis points (bp). Bitcoin is the UTC daily close, as on the charts. Source: Yahoo Finance daily data.*"
+    },
+    {
+      "type": "heading",
+      "text": "Bonds and the Fed"
+    },
+    {
+      "type": "paragraph",
+      "text": "The 10-year closed at 5.10%, 15bp below last Friday's 5.24%, even with the hot CPI and PPI. For the year it is still up 93bp. The Fed meets Oct 27 and 28."
+    },
+    {
+      "type": "heading",
+      "text": "Gold"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gold futures closed at $4,181, down 0.8% on the week and 21.4% below its January high. It fell 1.7% on CPI day, which is the opposite of the safe-haven story. This year it has traded against yields, and a hot print that points to higher rates hurts it."
+    },
+    {
+      "type": "heading",
+      "text": "Bitcoin"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitcoin closed Friday at $81,501 (UTC), down 1.3% on the week, 6.9% below where the year started, and down 2.5% for October. It briefly slipped under $80,000 on Thursday (Decrypt). Saturday closed at $81,382."
+    },
+    {
+      "type": "paragraph",
+      "text": "A correction to Issue 3: I wrote that bitcoin was 28.4% below \"last October's close high of $115,271\". That number is the Oct 13, 2025 close, the highest close in the 52-week window I used, not the record. The record close in Yahoo's full BTC-USD history (back to 2014) is $124,753 on Oct 6, 2025. On Issue 3's own date, the Oct 9 close of $82,546 was 33.8% below it. Today's $81,501 is 34.7% below. Sorry for the mistake."
+    },
+    {
+      "type": "paragraph",
+      "text": "US spot bitcoin ETFs lost $228.6 million this week, after $681.1 million the week before (SoSoValue via Decrypt). Wednesday was the worst day, at $261.4 million out. That is about $615 million out for October so far, in a month people call Uptober. Trackers differ slightly on flows, so treat the exact figures as approximate."
+    },
+    {
+      "type": "paragraph",
+      "text": "On MSTR: it closed at $136.83, down 11.3% on the week. Friday it dropped 9.6% on $4.35 billion traded, against a $2.56 billion Monday-to-Thursday average. The trigger was a Yahoo Finance report that MSCI's new rules could remove \"non-operating\" companies like Strategy from its indexes. The final list comes Nov 11, effective after the close on Nov 30. Fundstrat's Sean Farrell estimates around $2 billion of selling across MSCI-linked products, and thinks the market can absorb it (one analyst's estimate, see Notes). IBIT closed at $46.15, down 0.9%."
+    },
+    {
+      "type": "heading",
+      "text": "US tech"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Nasdaq 100 fell 5.5% to 29,188. The Nasdaq composite fell 4.5%, its worst week since late June (Investing.com). Tech stocks lost more than $1 trillion on Friday alone, and the Philadelphia semiconductor index fell for an eighth straight day, the longest streak since 2008 (NBC). Memory chips led it down after a report of a Chinese advance in memory: Micron down 14.6%, Samsung 17.8% and SK Hynix 24.3% on the week (Investing.com, single source)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nvidia fell 6.6% to $214.13, Tesla 7.3% to $354.72, Amazon 4.7%, Alphabet 3.1%, Meta 1.3% to $709.33 and Microsoft 1.1% to $529.05. Apple rose 2.0% to $343.46."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oil did not help. Brent closed at $109.86, its highest close since May 19, and WTI rose 10.4% on the week. Nine or more ships have been attacked near Hormuz since last Sunday, and Hormuz exports run at about 70% of prewar levels (Kpler via CNBC). JPMorgan reported Q3 EPS of $5.57, a miss against analyst estimates of $5.90 (CNBC, LSEG) to $5.93 (AP)."
+    },
+    {
+      "type": "heading",
+      "text": "This week"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tue, Oct 20: GM earnings.",
+        "Wed, Oct 21: Meta and Tesla earnings.",
+        "About 70 S&P 500 companies report this week. Alphabet, Microsoft and Amazon report the following week, and Apple on Nov 2."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "With Meta and Tesla both down on the week going into earnings, the Mag 7 line on Chart 2 should get interesting. I will check the dollars again next Monday."
+    },
+    {
+      "type": "heading",
+      "text": "The close"
+    },
+    {
+      "type": "paragraph",
+      "text": "That is issue four. If a number is wrong, reply and tell me. I read every reply and fix mistakes in the open, like the one above. Next Monday: what the Meta and Tesla reports did to all of this."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kumar"
+    },
+    {
+      "type": "heading",
+      "text": "Sources and method"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Prices and volumes: Yahoo Finance daily history for BTC-USD, MSTR, IBIT, FBTC, ARKB, BITB, GBTC, BTCO, HODL, BRRR, EZBC, BTCW, NVDA, MSFT, AAPL, GOOGL, AMZN, META and TSLA, plus index, gold, oil, dollar and yield series, retrieved Oct 18, 2026 (finance.yahoo.com). Dollar volume = daily close times share volume (BTC-USD volume is already in dollars). Unofficial source, credited. The record-close check uses the full BTC-USD daily history.",
+        "Matched sessions: only dates when US equities traded; each weekly average is per session. Gross trading across all channels overlaps and is not net flows.",
+        "Correlation, slope and window figures are my calculations from the same Yahoo daily data.",
+        "CPI figures, the Fed's September hike and the Oct 27-28 meeting: CNBC, Oct 14, \"Consumer prices rose 3.7% annually in September as gas prices skyrocket\"",
+        "PPI, 10-year yield and Warsh's comments: CNBC, Oct 16, \"U.S. Treasury yields waver as traders wrap up volatile week\"",
+        "Brent close, Hormuz attacks and exports: CNBC, Oct 16, \"U.S. crude oil tops $100 as Iran escalates Hormuz attacks\"",
+        "Tech selloff and semiconductor streak: NBC News, Oct 16, \"Tech stocks erase $1 trillion of wealth as oil surges to $110\"",
+        "Nasdaq composite week and memory-chip losses: Investing.com, Oct 16, \"Nasdaq notches worst week since late June with a 4.5% slide\"",
+        "MSCI rules, Strategy and the Fundstrat estimate: Yahoo Finance, Oct 16, \"Strategy stock falls 10% as Michael Saylor's bitcoin giant faces index-level threat\"",
+        "ETF flows and the $80,000 dip: Decrypt, \"Bitcoin ETFs shed nearly $1 billion in two weeks\"",
+        "JPMorgan results: CNBC, Oct 13, \"Bank earnings October 2026: Live updates\" and AP, Oct 13",
+        "Warsh: AP, Oct 16, \"Fed chair Warsh pledges price stability but avoids hints about rates\"",
+        "Week ahead: CNBC, Oct 18, \"Meta, Tesla earnings preview: Week of Oct. 19\" and Investopedia"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Not investment advice. Charts and numbers are for information only.*"
+    }
+  ]
+},
+{
   "slug": "macro-receipts-issue-3",
   "title": "Bitcoin fell 2.3%. Its volume says less than you think.",
   "date": "October 12, 2026",
@@ -307,7 +621,7 @@ export const articles: Article[] = [
   "body": [
     {
       "type": "paragraph",
-      "text": "*Macro Receipts, Issue 3. Week ending Friday, Oct 9, 2026. Bitcoin and weekend news as of Sunday Oct 11.*"
+      "text": "*Macro Receipts, Issue 3. Week ending Friday, Oct 9, 2026. Bitcoin and weekend news as of Sunday Oct 11. Originally published on Oct 12, 2026. Corrected Oct 19, 2026: the bitcoin drawdown below cited a close high of $115,271 (Oct 13, 2025) instead of the record close of $124,753 (Oct 6, 2025). It was 33.8% below the record, not 28.4% below the lower figure. See Issue 4.*"
     },
     {
       "type": "heading",
@@ -437,7 +751,7 @@ export const articles: Article[] = [
     },
     {
       "type": "paragraph",
-      "text": "Bitcoin closed Friday at $82,546, down 2.3% on the week, 5.7% below where it started the year and 28.4% below last October's close high of $115,271. It rose 1.5% on Monday, to $85,787, then gave it all back: $83,276 Wednesday, $81,676 Thursday, with an intraday low of $80,427. Saturday closed at $82,912, and it was near $83,750 Sunday evening. The US government moved about $1.44 billion of bitcoin during the week, per Block Insider, which I could not tie to a sale."
+      "text": "Bitcoin closed Friday at $82,546, down 2.3% on the week, 5.7% below where it started the year and 33.8% below its record close of $124,753 (Oct 6, 2025). It rose 1.5% on Monday, to $85,787, then gave it all back: $83,276 Wednesday, $81,676 Thursday, with an intraday low of $80,427. Saturday closed at $82,912, and it was near $83,750 Sunday evening. The US government moved about $1.44 billion of bitcoin during the week, per Block Insider, which I could not tie to a sale."
     },
     {
       "type": "paragraph",
