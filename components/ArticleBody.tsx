@@ -60,7 +60,14 @@ export default function ArticleBody({ blocks }: { blocks: ArticleBlock[] }) {
                     {block.rows.map((row, r) => (
                       <tr key={r}>
                         {row.map((cell, c) => (
-                          <td key={c}>{cell}</td>
+                          <td
+                            key={c}
+                            {...(block.head[c]
+                              ? { "data-label": block.head[c] }
+                              : {})}
+                          >
+                            {cell}
+                          </td>
                         ))}
                       </tr>
                     ))}
