@@ -279,6 +279,170 @@ export type Article = {
 
 export const articles: Article[] = [
 {
+  "slug": "macro-receipts-issue-5",
+  "title": "Bitcoin lost 0.5%. The Nasdaq lost 0.8%. That hides the whole week.",
+  "date": "October 26, 2026",
+  "description": "Week ending Oct 23: Meta and Tesla earnings, the AI trade's split, and what the full week of bitcoin ETF flows actually says.",
+  "readingTime": "8 min read",
+  "tags": [
+    "Macro Receipts",
+    "Bitcoin",
+    "ETF flows",
+    "Data"
+  ],
+  "links": [
+    {
+      "label": "Yahoo Finance daily price and volume history (retrieved October 25, 2026)",
+      "url": "https://finance.yahoo.com/"
+    },
+    {
+      "label": "CNBC, Oct 21: Tesla Q3 2026 earnings",
+      "url": "https://www.cnbc.com/2026/10/21/tesla-tsla-q3-2026-earnings-report.html"
+    },
+    {
+      "label": "CNBC, Oct 22: Meta Q3 earnings and negative free cash flow",
+      "url": "https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html"
+    },
+    {
+      "label": "CNBC, Oct 23: Next week brings major risks for the stock market",
+      "url": "https://www.cnbc.com/2026/10/23/next-week-brings-major-risks-for-the-stock-market-just-as-the-ai-trade-keeps-faltering.html"
+    },
+    {
+      "label": "Reuters via Investing.com: Nasdaq futures drop as AI worries resurface, oil climbs",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180"
+    },
+    {
+      "label": "CoinDesk, Oct 22: Bitcoin ETFs attract $1.08 billion in 3 days",
+      "url": "https://www.coindesk.com/markets/2026/10/22/bitcoin-etfs-attract-usd1-08-billion-in-3-days-but-it-may-not-be-enough-for-a-steep-rally"
+    },
+    {
+      "label": "CoinDesk, Oct 24: Crypto under weekend pressure, bitcoin slides below $80,000",
+      "url": "https://www.coindesk.com/markets/2026/10/24/crypto-under-weekend-pressure-bitcoin-slides-below-usd80-000-on-u-s-middle-east-evacuations"
+    },
+    {
+      "label": "CryptoBriefing, Oct 23: Spot bitcoin ETFs shed $635 million on October 22",
+      "url": "https://cryptobriefing.com/spot-bitcoin-etfs-635-million-outflows-october-22/"
+    },
+    {
+      "label": "TFTC: October 2026 bitcoin ETF flow table",
+      "url": "https://www.tftc.io/bitcoin-etf-flows/october-2026"
+    },
+    {
+      "label": "TIKR, Oct 17: Strategy stock fell nearly 10% after MSCI's index decision",
+      "url": "https://www.tikr.com/blog/strategy-stock-fell-nearly-10-in-a-day-after-mscis-index-decision-heres-what-has-to-happen-before-november-11"
+    },
+    {
+      "label": "news.bitcoin.com, Oct 26: full-week ETF flow tally",
+      "url": "https://news.bitcoin.com/bitcoin-etf/blackrock-drives-305m-bitcoin-etf-comeback-with-676m-inflow/"
+    },
+    {
+      "label": "FXStreet/Farside, Oct 26: Bitcoin ETFs break 2-week outflow streak",
+      "url": "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-etfs-break-2-week-outflow-streak-with-301m-comeback-202610261141"
+    }
+  ],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Welcome back. Three charts, then what Meta and Tesla did, then the pushback. Every number is recomputed from the daily data, and the sources are at the bottom."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-5-chart-1.png",
+      "alt": "Four panels of daily closes on the six US market sessions, Fri Oct 16 to Fri Oct 23, 2026: bitcoin in dollars down 0.5% on the week, Nasdaq 100 down 0.8%, S&P 500 down 0.5%, and MSTR priced in bitcoin per share up 7.3%.",
+      "caption": "Daily closes on the six US market sessions, Fri Oct 16 to Fri Oct 23, each panel in its own units. Bitcoin is the UTC daily close; stocks are the 4pm ET close. MSTR is also priced in bitcoin: the 4pm ET MSTR close divided by the same date's bitcoin UTC close. Source: Yahoo Finance, retrieved Oct 25, 2026.",
+      "width": 1760,
+      "height": 1184
+    },
+    {
+      "type": "paragraph",
+      "text": "The Nasdaq 100 lost 0.8% on the week, the S&P 500 lost 0.5% and bitcoin lost 0.5%. The closes say nothing happened. The path says otherwise: by Wednesday the Nasdaq 100 was up 2.2%, bitcoin was up 3.1% and MSTR was up 12.2%. Thursday erased most of it. MSTR still finished up 6.7%, a week after it fell 9.6% in a day on MSCI's new index rules."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-5-chart-2.png",
+      "alt": "Average dollars traded per US equity session by week in billions, bitcoin-linked trading (spot, ten spot bitcoin funds and MSTR) versus the Magnificent 7, recent weeks to Oct 23, 2026. Bitcoin-linked averaged $32.6 billion, 35.8% of the Mag 7.",
+      "caption": "Average dollars traded per US equity session, by week, in billions. Sessions are NYSE trading days only, so bitcoin weekends and holidays are left out of both sides. Bitcoin-linked = BTC spot + ten US spot bitcoin funds (including IBIT) + MSTR. Gross trading, not net flows. Source: Yahoo Finance daily history, retrieved Oct 25, 2026.",
+      "width": 1440,
+      "height": 768
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitcoin-linked trading averaged $32.6 billion per session this week: $27.8 billion in spot, $2.69 billion in MSTR and $2.15 billion across the ten funds. The Mag 7 averaged $91.2 billion, down 2.0% from last week."
+    },
+    {
+      "type": "paragraph",
+      "text": "That makes bitcoin-linked trading 35.8% of the Mag 7, down from 39.6% last week and below the 13-week average of 39.9%. It was also 11.4% under last week, 15.8% under its own 12-week average and 28% under the $45.1 billion 200-session average. This was the quietest week for bitcoin-linked trading since early September. The busiest session was Thursday, the down day, at $38.9 billion."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-5-chart-3.png",
+      "alt": "Scatter of daily bitcoin versus Nasdaq 100 percent moves over the last 250 US sessions to Oct 23, 2026, with this week's five sessions marked; daily correlation 0.44.",
+      "caption": "One dot per US session, last 250 sessions to Oct 23, 2026. Dark dots are this week. Bitcoin is the UTC close, which lands 4 hours after the Nasdaq close. Source: Yahoo Finance.",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "type": "paragraph",
+      "text": "Over the last 250 sessions the daily correlation between bitcoin and the Nasdaq 100 is 0.44, and bitcoin has moved about 0.97% for each 1% in the Nasdaq 100. This week's five dots sit inside the usual cloud, including Thursday: Nasdaq 100 down 2.9%, bitcoin down 3.2%. Over overlapping five-session windows the fitted line has a slope of 0.83 and a drift term of -0.7 points. For this week's 0.8% Nasdaq 100 drop it predicts about 1.3% down for bitcoin. Bitcoin fell 0.5%. Slightly better than the pattern, nothing like a decoupling. Across the 250 sessions, the Nasdaq 100 fell 2% or more on 12 days and bitcoin fell on 11 of them, 3.0% on average."
+    },
+    {
+      "type": "heading",
+      "text": "The pushback: \"institutions are dumping bitcoin\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Thursday's headline was that US spot bitcoin ETFs shed $635 million, the biggest one-day outflow of October. Some reads stopped there. The same data set says something softer:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "The three days before that brought in $1.08 billion (CoinDesk). Wednesday alone added about $528 million, with $235 million into IBIT and $212.7 million into Fidelity's fund.",
+        "Thursday's $635 million took out about $254 million from IBIT. On those numbers the week through Thursday still nets out positive, at roughly +$445 million.",
+        "Against $100 to $109 billion held across the funds, one $635 million day is about 0.6% of assets (CryptoBriefing). Friday brought another $138 million of outflows, and October as a whole is now moderately negative: about $314 million of net outflows through Friday (Farside Investors data).",
+        "The price held the $81,000 area through Friday's close. On Saturday bitcoin slid under $80,000, its weakest level in over a month, as news broke of US evacuations across the Middle East; CoinDesk reported the slide alongside that news, citing WSJ reporting on the evacuations. Sunday evening bitcoin was around $79,900 on Yahoo."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The full week, Monday through Friday, still netted positive: about +$305 million across the five sessions, because the first three days brought in more than the last two took out (news.bitcoin.com's daily tally; Farside-based counts put the week at $301 million)."
+    },
+    {
+      "type": "heading",
+      "text": "What Meta and Tesla did"
+    },
+    {
+      "type": "paragraph",
+      "text": "Both reported Wednesday after the close, and the market took the two reports in opposite directions on the week."
+    },
+    {
+      "type": "paragraph",
+      "text": "Meta beat on revenue: $64.6 billion, up 26% on the year, against $63.4 billion expected. The problem was the cost of the AI build-out: free cash flow went negative at -$2.12 billion, the first negative quarter in more than a decade, and the company raised the floor of its full-year capex guidance to $135 billion from $130 billion. It also announced a new class of nonvoting shares to help finance the spending. The stock fell 7.0% Thursday and 9.4% on the week, and the cost of insuring Meta's debt hit a record (CNBC)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tesla beat modestly: 48 cents a share against 43 cents expected, revenue of $28.05 billion against $27.9 billion expected. Underneath, automotive revenue fell 3%, net income fell 29% to $787 million, capex more than doubled to $3.73 billion and free cash flow fell 62% to $1.53 billion. The stock dropped 3.1% Thursday with everything else, but finished the week up 4.9% (CNBC)."
+    },
+    {
+      "type": "paragraph",
+      "text": "One way to read the week: AI spending with no cash flow behind it got punished, and AI spending with some got tolerated. That is one week and one interpretation, not a rule. CNBC's own read was that Meta's results unnerved investors worried about the sustainability of AI spending plans. Alphabet and Microsoft report Wednesday, Amazon Thursday, and those three test whether the split holds. Alphabet fell 6.0% this week going into its report."
+    },
+    {
+      "type": "heading",
+      "text": "The week ahead"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Wednesday 2pm ET: the Fed's decision, wrapping its Oct 27-28 meeting. A hold at 3.75% to 4.00% is widely expected, with Chair Kevin Warsh taking the press conference. Inflation has been moving away from the Fed's 2% target, but a weak September jobs report and patient signals from Fed officials have curbed expectations of a hike (CNBC). September PCE inflation follows Thursday morning; core is expected at 3.1% on the year, up from 3.0%.",
+        "Earnings: 163 S&P 500 companies report, including Alphabet and Microsoft on Wednesday and Amazon on Thursday (CNBC).",
+        "Strategy's investor materials set its next tests for October 28 and 29, after MSCI's rule change put its index membership in question. The final MSCI list lands November 11 (TIKR).",
+        "Oil is the wild card. Brent settled at $116.72 Friday, up 6.2% on the week, after Houthi strikes on Saudi targets sent crude to a five-month high (Reuters). On Saturday the US began evacuating personnel across the Middle East (WSJ reporting, cited by CoinDesk).",
+        "Gold futures fell 4.1% on the week to $4,008 and dipped under $4,000 intraday Friday, touching $3,989.10. The 10-year yield ended at 4.99%, down 11bp on the week, with a 19bp drop on Thursday."
+      ]
+    }
+  ]
+},
+{
   "slug": "macro-receipts-issue-4",
   "title": "Tech fell 5.5%. Bitcoin fell 1.3%. That is not decoupling.",
   "date": "October 19, 2026",
