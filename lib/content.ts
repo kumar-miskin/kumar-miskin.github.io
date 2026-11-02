@@ -278,6 +278,203 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+  {
+  "slug": "macro-receipts-issue-6",
+  "title": "Bitcoin lost 4.8%. The S&P lost 0.6%. The selling came Thursday and Friday.",
+  "description": "Week ending Oct 30: Binance's reported $6.3 billion hack, the Fed's hawkish split, Alphabet's earnings selloff, and $643 million out of the bitcoin ETFs on Friday.",
+  "date": "November 2, 2026",
+  "readingTime": "8 min read",
+  "tags": [
+    "Macro Receipts",
+    "Bitcoin",
+    "ETFs",
+    "Data"
+  ],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Welcome back. Three charts, then the Binance hack, the Fed, Alphabet, Amazon and MSTR, then the pushback. Every number is recomputed from the daily data, and the sources are at the bottom."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-6-chart-1.png",
+      "alt": "Four panels of daily closes on the six US market sessions, Fri Oct 23 to Fri Oct 30, 2026: bitcoin in dollars down 4.8% on the week, Nasdaq 100 down 2.0%, S&P 500 down 0.6%, and MSTR priced in bitcoin per share down 6.1%.",
+      "caption": "Daily closes on the six US market sessions, Fri Oct 23 to Fri Oct 30, each panel in its own units. Bitcoin is the UTC daily close; stocks are the 4pm ET close. MSTR is priced in bitcoin: the 4pm ET MSTR close divided by the same date's bitcoin UTC close. Source: Yahoo Finance, retrieved Nov 1, 2026.",
+      "width": 1760,
+      "height": 1152
+    },
+    {
+      "type": "paragraph",
+      "text": "The S&P 500 lost 0.6% on the week, the Nasdaq 100 lost 2.0% and bitcoin lost 4.8%. The weekly closes hide the timing. Through Wednesday the Nasdaq 100 was up 3.0% and the S&P 500 up 1.6%; bitcoin dipped Monday and recovered by midweek. Then two sessions did the damage: the Nasdaq 100 fell 4.8% from Wednesday's close to Friday's, and bitcoin fell 5.0% from Wednesday's UTC close. One timestamp note before any timing read: stock closes are 4pm ET and bitcoin closes are UTC midnight, so the daily points are not the same clock moment. MSTR fell 10.6% in dollars on the week. Priced in bitcoin it still fell 6.1%, so the stock's drop was more than bitcoin's own."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-6-chart-2.png",
+      "alt": "Average dollars traded per US equity session by week in billions, bitcoin-linked trading (spot, ten spot bitcoin funds and MSTR) versus the Magnificent 7, weeks ending June 29 to Oct 26, 2026. Bitcoin-linked averaged $37.2 billion per session; the Mag 7 averaged $123.6 billion.",
+      "caption": "Average dollars traded per US equity session, by week, in billions. Sessions are NYSE trading days only, so bitcoin weekends and holidays are left out of both sides. Bitcoin-linked = BTC spot + ten US spot bitcoin funds (including IBIT) + MSTR. Gross trading, not net flows. Source: Yahoo Finance daily history, retrieved Nov 1, 2026.",
+      "width": 1760,
+      "height": 928
+    },
+    {
+      "type": "paragraph",
+      "text": "Gross BTC-linked trading averaged $37.2 billion per session this week, up 14% from $32.6 billion the week before. The Mag 7 averaged $123.6 billion, up 36% from $91.2 billion and the heaviest week since late July. Alphabet alone traded $39.7 billion on Thursday, about twice its Wednesday volume. This was an equity market event first: bitcoin volumes rose, but nothing like what hit the AI names. For scale, the Mag 7 traded about 3.3 times the entire bitcoin-linked complex per session, up from 2.8 times the week before."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-6-chart-3.png",
+      "alt": "Net daily flows into US spot bitcoin funds in millions of dollars, Mon Oct 26 to Fri Oct 30, 2026: four positive days totaling $440.8 million, then a $643.2 million outflow on Friday.",
+      "caption": "Net daily flows into US spot bitcoin funds, in $ millions. Source: Farside Investors, retrieved Nov 1, 2026.",
+      "width": 1440,
+      "height": 768
+    },
+    {
+      "type": "paragraph",
+      "text": "US spot bitcoin funds took in $440.8 million Monday through Thursday, four straight positive days. Friday took out $643.2 million in one session and turned the whole week negative at -$202.4 million. CryptoWatchDesk, reading the same Farside data, called Friday the largest single-day outflow since June 25 and put October as a whole $515.9 million in the red; The Block tied Friday's exit directly to the Binance hack disclosure the day before. BlackRock's IBIT alone lost $233.7 million on Friday, equal to about 5% of the $5.2 billion that traded in IBIT that day."
+    },
+    {
+      "type": "heading",
+      "text": "The other Thursday story: Binance's reported $6.3 billion hack."
+    },
+    {
+      "type": "paragraph",
+      "text": "While Thursday's PCE and GDP numbers landed, Binance said that about $6.3 billion of digital assets had been impacted by a security breach, per the BBC, and on Friday it confirmed hackers stole more than $6 billion, per the AP, in what the industry is calling the largest crypto theft on record. Wired reports that tracing firms suspect the North Korea-linked TraderTraitor group and that the theft itself took about 20 minutes. Binance froze assets after the breach; when withdrawals reopened over the weekend, customers pulled a net $3.64 billion, per The Block. Bitcoin fell 4.3% on Thursday, the disclosure day, and 0.7% on Friday."
+    },
+    {
+      "type": "heading",
+      "text": "The Fed held. Two officials wanted a hike."
+    },
+    {
+      "type": "paragraph",
+      "text": "Wednesday the FOMC held the funds rate at 3.75% to 4%, as widely expected. The vote was 10 to 2, and the dissents were the surprise: Governor Lisa Cook and Cleveland Fed president Beth Hammack both preferred to raise by a quarter point, per the statement. Chairman Warsh said politics played no role in the decision, with the midterm elections the following week."
+    },
+    {
+      "type": "paragraph",
+      "text": "The next morning the BEA released September PCE: headline prices up 0.5% on the month and 3.6% on the year, accelerating from 3.4% in August, with core up 3.1% on the year. The same morning, the advance estimate put third-quarter GDP growth at 3.4%, up from 2.2% in the second quarter. Inflation accelerating while growth runs hot is the combination that pushes rate hikes back onto the table; Yahoo Finance's read of the press conference was that a December hike now looks far more likely."
+    },
+    {
+      "type": "heading",
+      "text": "Alphabet's earnings selloff."
+    },
+    {
+      "type": "paragraph",
+      "text": "Alphabet reported Wednesday night: search advertising up 12% to $63.35 billion, below expectations, and negative free cash flow of $9.07 billion, far worse than the $2.7 billion analysts expected, while keeping full-year capital spending guidance at $195 to $205 billion. The stock fell 12.6% on Thursday. CNBC called it Alphabet's worst day ever, past the 11.63% record set in March 2020, erasing roughly $500 billion of market value. Microsoft reported the same night: capital spending of $45.2 billion, up 30% on the year but below the $50.67 billion analysts expected, and free cash flow down 27% to a still-positive $18.63 billion. Microsoft fell 0.2% on Thursday."
+    },
+    {
+      "type": "heading",
+      "text": "Amazon beat on the cloud and missed on the rest."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thursday after the close: AWS revenue up 39% to $45.98 billion, above the $45.29 billion consensus, and Jassy said AWS growth should top 40% next year. But earnings per share of $1.89 missed the $1.96 estimate, total revenue of $201.94 billion missed by a hair, fourth-quarter guidance midpoint came in below expectations, and advertising missed. Amazon held its 2026 capital spending forecast at $220 billion and said it will spend meaningfully more in 2027. The stock fell 4.3% on Thursday with the rest of tech, then another 1.4% on Friday after its own report."
+    },
+    {
+      "type": "heading",
+      "text": "MSTR's record quarter, marked down."
+    },
+    {
+      "type": "paragraph",
+      "text": "Strategy reported Thursday: third-quarter operating income of $20.91 billion, the largest in its history and almost entirely the accounting gain on its bitcoin; net income attributable to common stockholders of $19.12 billion, or $44.75 a diluted share; holdings of 848,517 bitcoin. Michael Saylor called this \"the beginning of the next bitcoin bull market.\" The stock fell 7.8% the next day and 10.6% on the week."
+    },
+    {
+      "type": "heading",
+      "text": "The pushback."
+    },
+    {
+      "type": "list",
+      "items": [
+        "\"Bitcoin is a haven from hawkish central banks.\" This week cannot settle that argument either way: bitcoin's 4.8% drop came the same week Binance disclosed a breach that the BBC and the AP called the largest crypto theft on record, so macro damage and crypto-specific damage are tangled together. What the data do say: bitcoin fell 2.4 times the Nasdaq 100's drop and 8 times the S&P 500's, and $643 million left the funds on Friday alone.",
+        "\"The ETF bid is one-way money.\" Friday erased four inflow days in one session, and the week finished $202.4 million negative. The bid is a bid, until it is not.",
+        "\"MSTR wins when bitcoin wins.\" MSTR posted a record $19.1 billion quarterly profit and still fell 10.6% on the week, 6.1% even measured in bitcoin. The premium to bitcoin contracted on good news.",
+        "\"The market hates AI spending.\" Compare Thursday's two reporters. Alphabet fell 12.6% on negative free cash flow; Microsoft fell 0.2% with spending below estimates and cash flow positive. One way to read it: the market is not punishing the buildout, it is punishing the version that burns cash. That is an interpretation, not a measurement."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Next week."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tuesday: the US midterm elections. Also the JOLTS job-openings report for September at 10am ET.",
+        "Friday: the October jobs report at 8:30am ET, the first clean read on hiring since the Fed's hawkish split."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitcoin traded near $78,500 on Monday morning in Asia, its third straight day of gains, after dipping to about $77,600 late Sunday, per CoinDesk. Binance has reopened withdrawals."
+    }
+  ],
+  "links": [
+    {
+      "label": "FOMC statement, October 28 (10-2 hold at 3.75-4%, Cook and Hammack dissenting for a hike)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
+      "label": "Yahoo Finance Fed live coverage (widely expected, December hike odds, Warsh on politics)",
+      "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html"
+    },
+    {
+      "label": "BEA, Personal Income and Outlays, September 2026 (PCE +0.5% m/m, +3.6% y/y, core +3.1%)",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026"
+    },
+    {
+      "label": "BEA, GDP advance estimate, Q3 2026 (+3.4%)",
+      "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026"
+    },
+    {
+      "label": "CNBC on Alphabet's worst day ever and Microsoft's quarter",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html"
+    },
+    {
+      "label": "CNBC on Amazon's Q3",
+      "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"
+    },
+    {
+      "label": "Strategy Q3 2026 results press release",
+      "url": "https://www.strategy.com/press/strategy-announces-third-quarter-2026-financial-results_10-29-2026"
+    },
+    {
+      "label": "Farside Investors, bitcoin fund daily flows",
+      "url": "https://farside.co.uk/btc/"
+    },
+    {
+      "label": "CryptoWatchDesk on Friday's outflow and October's total",
+      "url": "https://cryptowatchdesk.com/news/etf-desk-oct-30-bitcoin-etfs-643-million-outflow-october-ends-negative-ether-outflow-156-million"
+    },
+    {
+      "label": "BBC on the Binance disclosure",
+      "url": "https://www.bbc.com/news/articles/cwg7xp8kx4v5o"
+    },
+    {
+      "label": "AP on the confirmed theft amount",
+      "url": "https://apnews.com/article/binance-cryptocurrency-security-hack-north-korea-550e9b876550f71f07098494fe735beb"
+    },
+    {
+      "label": "Wired on the 20-minute theft and TraderTraitor attribution",
+      "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/"
+    },
+    {
+      "label": "The Block on the ETF outflow and weekend withdrawals",
+      "url": "https://www.theblock.co/news/markets/2026-11-01-spot-bitcoin-etfs-largest-four-months-following-binance-hack-432270"
+    },
+    {
+      "label": "CoinDesk on Monday's price",
+      "url": "https://www.coindesk.com/markets/2026/11/02/bitcoin-claws-back-toward-usd79-000-as-markets-shake-off-crypto-s-biggest-hack"
+    },
+    {
+      "label": "AP on Friday's close",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
+    },
+    {
+      "label": "BLS, Employment Situation release schedule (Oct report Fri Nov 6, 8:30am ET)",
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "label": "BLS, November release schedule (JOLTS Tue Nov 3, 10am ET)",
+      "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm"
+    }
+  ]
+},
 {
   "slug": "macro-receipts-issue-5",
   "title": "Bitcoin lost 0.5%. The Nasdaq lost 0.8%. That hides the whole week.",
