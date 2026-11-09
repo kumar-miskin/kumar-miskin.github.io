@@ -279,6 +279,235 @@ export type Article = {
 
 export const articles: Article[] = [
   {
+  "slug": "macro-receipts-issue-7",
+  "title": "Bitcoin lost 1.9%. The Nasdaq 100 lost 4.9%. The election rally lasted one day.",
+  "description": "Week ending Nov 6: the midterm rally, Thursday's AI-regulation selloff, October's jobs report, and $1.28 billion out of US spot bitcoin funds.",
+  "date": "November 9, 2026",
+  "readingTime": "8 min read",
+  "tags": [
+    "Macro Receipts",
+    "Bitcoin",
+    "ETFs",
+    "Data"
+  ],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Welcome back. Three charts, then the midterms, Thursday's AI selloff, the jobs report and Tesla, then the pushback. Every number is recomputed from the daily data, and the sources are at the bottom."
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-7-chart-1.png",
+      "alt": "Four panels of daily closes from Oct 30 to Nov 6, 2026: bitcoin down 1.9%, Nasdaq 100 down 4.9%, S&P 500 down 2.7%, MSTR in bitcoin per share up 0.7%.",
+      "caption": "Daily closes on the six US market sessions, Fri Oct 30 to Fri Nov 6, each panel in its own units. Bitcoin is the UTC daily close; stocks are the 4pm ET close. MSTR is priced in bitcoin: the 4pm ET MSTR close divided by the same date's bitcoin UTC close. Source: Yahoo Finance, retrieved Nov 8, 2026.",
+      "width": 1635,
+      "height": 1065
+    },
+    {
+      "type": "paragraph",
+      "text": "The Nasdaq 100 lost 4.9% on the week, the S&P 500 lost 2.7% and bitcoin lost 1.9%. The weekly closes hide the path. Through Wednesday the S&P 500 was up 1.4% and bitcoin up 4.2%, while the Nasdaq 100 was roughly flat. Then one session did the damage: on Thursday the Nasdaq 100 fell 6.4%, the S&P 500 fell 4.4% and bitcoin fell about 5.5% UTC close to UTC close. Friday steadied, with the Nasdaq 100 up 1.4% and bitcoin down 0.3%. One timestamp note before any timing read: stock closes are 4pm ET and bitcoin closes are UTC midnight, so the daily points are not the same clock moment. MSTR fell 1.2% in dollars on the week. Priced in bitcoin it rose 0.7%, so this week the stock kept pace with bitcoin."
+    },
+    {
+      "type": "heading",
+      "text": "Bitcoin vs the Mag 7, in dollars"
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-7-chart-2.png",
+      "alt": "Gross dollars traded per US equity session by week: bitcoin-linked trading averaged $37.7 billion and the Magnificent 7 averaged $134.2 billion in the week of Nov 2, 2026.",
+      "caption": "Average dollars traded per US equity session, by week, in billions. Sessions are NYSE trading days only, so bitcoin weekends and holidays are left out of both sides. Bitcoin-linked = BTC spot + ten US spot bitcoin funds (including IBIT) + MSTR. Gross trading, not net flows. Source: Yahoo Finance daily history, retrieved Nov 8, 2026.",
+      "width": 1760,
+      "height": 928
+    },
+    {
+      "type": "paragraph",
+      "text": "Gross BTC-linked trading averaged $37.7 billion per session this week, barely up from $37.2 billion the week before. The Mag 7 averaged $134.2 billion, up from $123.6 billion and the heaviest week in this series, which reaches back to late June. NVIDIA alone traded $55.6 billion on Thursday. For scale, the Mag 7 traded about 3.6 times the entire bitcoin-linked complex per session, up from 3.3 times the week before."
+    },
+    {
+      "type": "heading",
+      "text": "The worst outflow week since June"
+    },
+    {
+      "type": "image",
+      "src": "/writing/macro-receipts-issue-7-chart-3.png",
+      "alt": "Net daily US spot bitcoin fund flows, Nov 2-6, 2026, in millions: -398.6, -116.0, +74.6, -430.2, and -411.9.",
+      "caption": "Net daily flows into US spot bitcoin funds, in $ millions. Source: Farside Investors, retrieved Nov 8, 2026.",
+      "width": 1440,
+      "height": 768
+    },
+    {
+      "type": "paragraph",
+      "text": "US spot bitcoin funds lost $1.28 billion over five sessions, their largest weekly outflow since the week ending June 26, per SosoValue's data as cited by The Crypto Times; the daily Farside table sums to the same $1.28 billion. Only Wednesday, the rally day, was positive at +$74.6 million. Monday took out $398.6 million, Thursday $430.2 million and Friday $411.9 million. BlackRock's IBIT accounted for $1.21 billion of the week's exits and was net negative all five days, including a $405.3 million withdrawal Monday that The Crypto Times called its largest single-day outflow; Fidelity's fund was net positive on the week."
+    },
+    {
+      "type": "heading",
+      "text": "Tuesday's sweep, Wednesday's relief"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tuesday's midterm elections gave Democrats majorities in both houses of Congress, per the AP. Wednesday everything rallied: the S&P 500 rose 1.6%, the Dow gained about 1,500 points in what Yahoo Finance called its best day of 2026, bitcoin rose 4.0% on the UTC day, MSTR rose 5.1% and Amazon rose 6.1%. The framing across AP, CNBC and Axios was relief: the result was clear, President Trump accepted the Democratic sweep, and stocks historically do fine after midterms. The dollar slid and bond yields fell, per the Guardian."
+    },
+    {
+      "type": "heading",
+      "text": "Thursday: the AI-regulation selloff"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thursday priced the other read of the same election: that the new Congress could regulate AI and slow the data-center buildout, as Reuters and MarketWatch reported it. Chip stocks led the drop. Qualcomm fell more than 9% a day after beating earnings estimates and guiding current-quarter revenue above consensus, per CNBC; NVIDIA fell 9.3%. The Nasdaq Composite sank 5.5%, its worst day since April 2025, and closed in correction territory, per Reuters. CNBC put the Mag 7's one-day market value loss at $1 trillion. All eleven S&P 500 sectors fell, with tech hit hardest, per MarketWatch. Bitcoin fell about 5.5% on the UTC day, alongside the AI trade rather than apart from it."
+    },
+    {
+      "type": "heading",
+      "text": "Tesla's political premium, repriced"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tesla fell 3.3% on Wednesday even as the market rallied, then 10.8% on Thursday; the week cost it 10.4%. Reuters tied the slide to the midterm results clouding Tesla's data-center and merger outlook, and CNBC put the combined post-midterm market value loss across Tesla and SpaceX at more than $420 billion. Benzinga's week in review also noted the end of Cybertruck production. NVIDIA lost 8.8% on the week; Amazon gained 7.9% and was the only Mag 7 name up meaningfully."
+    },
+    {
+      "type": "heading",
+      "text": "Friday's hot jobs report"
+    },
+    {
+      "type": "paragraph",
+      "text": "Friday morning brought the October jobs report: 165,000 jobs added, about 100,000 more than economists expected, with unemployment slipping to 4.1% and wages stronger than forecast, per CNBC and Reuters. MarketWatch framed it as pressure on the Fed, which split 10-2 the previous week with two officials already dissenting for a hike. Stocks steadied anyway: the Nasdaq 100 rose 1.4% on Friday and Tesla bounced 4.2%. Bitcoin ended the UTC day down 0.3%."
+    },
+    {
+      "type": "heading",
+      "text": "The pushback"
+    },
+    {
+      "type": "list",
+      "items": [
+        "\"Bitcoin is decoupling from tech stocks.\" This week bitcoin fell 1.9% while the Nasdaq 100 fell 4.9%. Last week it fell 2.4 times as much as the Nasdaq 100. Both weeks moved on the same political and macro news as equities. The direction is shared; only the multiplier changes.",
+        "\"The ETF bid is one-way money.\" Two weeks ago the funds took in money four days straight. This week four of five sessions were outflows, $1.28 billion in total, the worst week since June per SosoValue's data, and IBIT was net negative all five days. The bid is a bid, until it is not.",
+        "\"The midterms were good for markets.\" Wednesday's rally and Thursday's crash were both readings of the same election result, twenty-four hours apart. Netted together, the S&P 500 lost 2.8% across the two sessions. As a bull story, the election lasted one day.",
+        "\"MSTR wins when bitcoin wins.\" Last week Strategy posted a record $19.1 billion quarterly profit and the stock fell 6.1% in bitcoin terms. This week brought no company news at all and it rose 0.7% in bitcoin terms. The premium moves on its own schedule, not the news cycle."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Next week"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Tuesday, Nov 10: the October CPI report at 8:30am ET, the first inflation read since the Fed's hawkish split and Friday's strong jobs report.",
+        "Tuesday, Nov 17: NVIDIA reports after the close, the first AI bellwether earnings since Thursday's regulation scare."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitcoin traded near $75,000 on Sunday evening, below $76,000 all weekend. Reuters reported late Sunday that crypto was sliding to two-month lows, and fresh pressure from Binance's European closures is adding to the mood, per Investing.com. A fifth straight weekly loss is on the table."
+    },
+    {
+      "type": "paragraph",
+      "text": "Price and volume data: Yahoo Finance daily history, retrieved Nov 8, 2026. Credited, not republished. Macro Receipts is written by Instinct for Kumar."
+    }
+  ],
+  "links": [
+    {
+      "label": "Originally published on Macro Receipts (Substack)",
+      "url": "https://miskinkp.substack.com/p/bitcoin-lost-19-the-nasdaq-100-lost"
+    },
+    {
+      "label": "AP on the midterm sweep and Wednesday's rally",
+      "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-4d12764c0b3ce38ffde3077712811182"
+    },
+    {
+      "label": "CNBC on Wednesday's rally and Trump accepting the result",
+      "url": "https://www.cnbc.com/2026/11/04/stock-market-rally-trump-midterms.html"
+    },
+    {
+      "label": "Axios, five takeaways for investors from the blue wave",
+      "url": "https://www.axios.com/2026/11/04/midterm-elections-stocks-investors"
+    },
+    {
+      "label": "Yahoo Finance live coverage, Dow's best day of 2026",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-rallies-1500-points-sp-500-nasdaq-midterm-elections-democrats-sweep-201207340.html"
+    },
+    {
+      "label": "The Guardian on the dollar and yields after the midterms",
+      "url": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears"
+    },
+    {
+      "label": "CNBC on Qualcomm's earnings and Thursday's chip selloff",
+      "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+    },
+    {
+      "label": "CNBC on Qualcomm's Q4 numbers and guidance",
+      "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
+    },
+    {
+      "label": "Reuters on the Nasdaq's worst day in 19 months and the correction",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-futures-steady-after-midterms-rally-nasdaq-lags-on-chip-weakness-5003237"
+    },
+    {
+      "label": "CNBC on the Mag 7's $1 trillion Thursday",
+      "url": "https://www.cnbc.com/2026/11/05/stock-market-selloff-ai-fears.html"
+    },
+    {
+      "label": "MarketWatch on Thursday's close, all eleven sectors red",
+      "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-democrat-sweep-midterm-elections-rally/card/u-s-stocks-end-sharply-lower-as-nasdaq-enters-correction-xVitICpiEnyNJay19Rrk"
+    },
+    {
+      "label": "CNBC on Tesla and SpaceX losing $420 billion after the midterms",
+      "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html"
+    },
+    {
+      "label": "Reuters on Tesla and SpaceX after the midterms",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-tesla-extend-losses-as-midterm-results-cloud-data-center-merger-outlook-5005412"
+    },
+    {
+      "label": "Benzinga's week in Tesla",
+      "url": "https://www.benzinga.com/markets/tech/26/11/63020098/this-week-in-tsla-elon-musk-loses-big-in-midterms-cybertruck-ends-production-and-more"
+    },
+    {
+      "label": "CNBC on the October jobs report",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+    },
+    {
+      "label": "Reuters on the jobs report, 100,000 more jobs than expected",
+      "url": "https://finance.yahoo.com/news/four-things-note-fridays-us-192147108.html"
+    },
+    {
+      "label": "MarketWatch jobs-day live coverage, pressure on the Fed",
+      "url": "https://www.marketwatch.com/livecoverage/october-jobs-report-today-live-updates"
+    },
+    {
+      "label": "Farside Investors, bitcoin fund daily flows",
+      "url": "https://farside.co.uk/btc/"
+    },
+    {
+      "label": "The Crypto Times on the $1.28 billion week and the June comparison",
+      "url": "https://www.cryptotimes.io/2026/11/07/bitcoin-etfs-record-1-28b-in-weekly-outflows-ethereum-loses-365m/"
+    },
+    {
+      "label": "crypto.news on the combined bitcoin and ether ETF outflows",
+      "url": "https://crypto.news/bitcoin-ether-etfs-weekly-outflows-blackrock-november/"
+    },
+    {
+      "label": "CryptoWatchDesk's Friday ETF desk",
+      "url": "https://cryptowatchdesk.com/news/etf-desk-nov-6-bitcoin-etfs-412-million-outflow-ibit-403-million-week-1-28-billion"
+    },
+    {
+      "label": "Investing.com on bitcoin below $76,000 and Binance's EU closures",
+      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-below-76k-as-binance-eu-closures-add-to-crypto-market-pressure-5010133"
+    },
+    {
+      "label": "Reuters on crypto sliding to two-month lows late Sunday",
+      "url": "https://www.investing.com/news/forex-news/cryptocurrencies-slide-to-twomonth-lows-after-us-midterms-5010335"
+    },
+    {
+      "label": "BLS, CPI release schedule",
+      "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "label": "NVIDIA IR, third-quarter call announcement",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
+    }
+  ]
+},
+  {
   "slug": "macro-receipts-issue-6",
   "title": "Bitcoin lost 4.8%. The S&P lost 0.6%. The selling came Thursday and Friday.",
   "description": "Week ending Oct 30: Binance's reported $6.3 billion hack, the Fed's hawkish split, Alphabet's earnings selloff, and $643 million out of the bitcoin ETFs on Friday.",
