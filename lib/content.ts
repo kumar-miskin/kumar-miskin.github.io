@@ -297,7 +297,7 @@ export const articles: Article[] = [
     },
     {
       "type": "image",
-      "src": "/writing/7-macro-receipts-issue-8-chart-1.png",
+      "src": "https://substackcdn.com/image/fetch/$s_!fYoK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3f3040c-0b35-4666-a798-7e67919cd920_1705x1155.png",
       "alt": "Four panels of daily closes from Fri Nov 6 to Fri Nov 13: bitcoin down 9.9% on the week, Nasdaq 100 up 3.5%, S&P 500 up 2.5%, MSTR priced in bitcoin down 3.9%. Stocks jumped Monday and held; bitcoin slid all week and broke Thursday.",
       "caption": "Daily closes on the six US market sessions, Fri Nov 6 to Fri Nov 13, each panel in its own units. Bitcoin is the UTC daily close; stocks are the 4pm ET close. MSTR is priced in bitcoin: the 4pm ET MSTR close divided by the same date's bitcoin UTC close. Source: Yahoo Finance, retrieved Nov 15, 2026.",
       "width": 1705,
@@ -313,7 +313,7 @@ export const articles: Article[] = [
     },
     {
       "type": "image",
-      "src": "/writing/8-macro-receipts-issue-8-chart-2.png",
+      "src": "https://substackcdn.com/image/fetch/$s_!_Jfk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F929cbdf1-b5ed-4ab6-8f18-f7236b6aa048_1815x946.png",
       "alt": "Stacked bars of weekly average dollars traded per US session in bitcoin spot, nine US spot bitcoin funds and MSTR, next to Mag 7 bars, late June to mid November 2026. This week: $34.1 billion vs $146.4 billion.",
       "caption": "Average dollars traded per US equity session, by week, in billions. Sessions are NYSE trading days only, so bitcoin weekends and holidays are left out of both sides. Bitcoin-linked basket = BTC spot (Yahoo BTC-USD) + the nine US spot bitcoin funds sampled (IBIT, FBTC, ARKB, BITB, GBTC, HODL, BTCO, EZBC, BTCW) + MSTR; the Mag 7 basket is Apple, Microsoft, Nvidia, Amazon, Alphabet, Meta and Tesla. Figures are dollar turnover (price times shares or coins traded), gross trading, not net flows. Source: Yahoo Finance daily history, retrieved Nov 15, 2026.",
       "width": 1815,
@@ -329,7 +329,7 @@ export const articles: Article[] = [
     },
     {
       "type": "image",
-      "src": "/writing/9-macro-receipts-issue-8-chart-3.png",
+      "src": "https://substackcdn.com/image/fetch/$s_!4igr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad47a36e-8e8f-475b-ac91-0f8ba92e968b_1705x901.png",
       "alt": "Daily net flows into US spot bitcoin funds, Nov 9 to Nov 13: minus 201, minus 95, minus 300, minus 284 and minus 185 million dollars Monday through Friday. All five sessions negative.",
       "caption": "Net daily flows into US spot bitcoin funds, in $ millions. Source: Farside Investors, retrieved Nov 15, 2026.",
       "width": 1705,
