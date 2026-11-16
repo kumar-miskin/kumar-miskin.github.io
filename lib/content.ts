@@ -278,6 +278,211 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+{
+  "slug": "macro-receipts-issue-8",
+  "title": "Stocks had their best week since August. Bitcoin had its worst since June.",
+  "description": "Week ending Nov 13: stocks and bitcoin diverge, the week Nvidia lost Jensen Huang, October inflation and a second billion-dollar bitcoin fund outflow week.",
+  "date": "November 16, 2026",
+  "readingTime": "8 min read",
+  "tags": [
+    "Macro Receipts",
+    "Bitcoin",
+    "ETFs",
+    "Data"
+  ],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Welcome back. Three charts, then the week Nvidia lost Jensen Huang, the inflation print that locked in a December rate hike, and the pushback. Every number is recomputed from the daily data, and the sources are at the bottom."
+    },
+    {
+      "type": "image",
+      "src": "https://substackcdn.com/image/fetch/$s_!fYoK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3f3040c-0b35-4666-a798-7e67919cd920_1705x1155.png",
+      "alt": "Four panels of daily closes from Fri Nov 6 to Fri Nov 13: bitcoin down 9.9% on the week, Nasdaq 100 up 3.5%, S&P 500 up 2.5%, MSTR priced in bitcoin down 3.9%. Stocks jumped Monday and held; bitcoin slid all week and broke Thursday.",
+      "caption": "Daily closes on the six US market sessions, Fri Nov 6 to Fri Nov 13, each panel in its own units. Bitcoin is the UTC daily close; stocks are the 4pm ET close. MSTR is priced in bitcoin: the 4pm ET MSTR close divided by the same date's bitcoin UTC close. Source: Yahoo Finance, retrieved Nov 15, 2026.",
+      "width": 1705,
+      "height": 1155
+    },
+    {
+      "type": "paragraph",
+      "text": "The S&P 500 rose 2.5% on the week, its biggest weekly gain since August and its first winning week since October, per the AP. The Nasdaq 100 rose 3.5%. Bitcoin lost 9.9%, its worst week since the week ending June 5, and closed Friday at $68,249. MSTR fell 13.4% in dollars; priced in bitcoin it fell 3.9%, so the stock gave back last week's small bitcoin-term gain and then some. The paths diverged from the first session: stocks jumped Monday (the S&P 500 up 2.3%, the Nasdaq 100 up 3.4%) and never gave the gain back, while bitcoin fell four of the five sessions and broke Thursday and Friday, down 3.5% then 4.3% UTC close to UTC close. One timestamp note before any timing read: stock closes are 4pm ET and bitcoin closes are UTC midnight, so the daily points are not the same clock moment."
+    },
+    {
+      "type": "heading",
+      "text": "Bitcoin vs the Mag 7, in dollars"
+    },
+    {
+      "type": "image",
+      "src": "https://substackcdn.com/image/fetch/$s_!_Jfk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F929cbdf1-b5ed-4ab6-8f18-f7236b6aa048_1815x946.png",
+      "alt": "Stacked bars of weekly average dollars traded per US session in bitcoin spot, nine US spot bitcoin funds and MSTR, next to Mag 7 bars, late June to mid November 2026. This week: $34.1 billion vs $146.4 billion.",
+      "caption": "Average dollars traded per US equity session, by week, in billions. Sessions are NYSE trading days only, so bitcoin weekends and holidays are left out of both sides. Bitcoin-linked basket = BTC spot (Yahoo BTC-USD) + the nine US spot bitcoin funds sampled (IBIT, FBTC, ARKB, BITB, GBTC, HODL, BTCO, EZBC, BTCW) + MSTR; the Mag 7 basket is Apple, Microsoft, Nvidia, Amazon, Alphabet, Meta and Tesla. Figures are dollar turnover (price times shares or coins traded), gross trading, not net flows. Source: Yahoo Finance daily history, retrieved Nov 15, 2026.",
+      "width": 1815,
+      "height": 946
+    },
+    {
+      "type": "paragraph",
+      "text": "Gross BTC-linked trading averaged $34.1 billion per session this week, down from $37.7 billion. The Mag 7 averaged $146.4 billion, up from $134.3 billion and the second-heaviest week in this series, which reaches back to mid-June; only the week ending June 26 was busier. NVIDIA alone traded $124.3 billion on Thursday, the day Jensen Huang resigned, the heaviest single-stock day in the series. The Mag 7 traded about 4.3 times the sampled bitcoin-linked basket per session, up from 3.6 times the week before."
+    },
+    {
+      "type": "heading",
+      "text": "A second straight billion-dollar outflow week"
+    },
+    {
+      "type": "image",
+      "src": "https://substackcdn.com/image/fetch/$s_!4igr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad47a36e-8e8f-475b-ac91-0f8ba92e968b_1705x901.png",
+      "alt": "Daily net flows into US spot bitcoin funds, Nov 9 to Nov 13: minus 201, minus 95, minus 300, minus 284 and minus 185 million dollars Monday through Friday. All five sessions negative.",
+      "caption": "Net daily flows into US spot bitcoin funds, in $ millions. Source: Farside Investors, retrieved Nov 15, 2026.",
+      "width": 1705,
+      "height": 901
+    },
+    {
+      "type": "paragraph",
+      "text": "US spot bitcoin funds lost $1.07 billion over five sessions, and every session was negative. That makes two straight weeks above a billion in outflows, $2.35 billion in total, and seven consecutive negative sessions running to $1.9 billion. BlackRock's IBIT accounted for $908 million of this week's exits and was net negative all five days. The one quiet exception: Morgan Stanley's new fund was net positive four of five days, taking in $54 million while the rest bled. Last week's outflow was the largest since June; this week's is smaller, but the streak is now the story."
+    },
+    {
+      "type": "heading",
+      "text": "The week Nvidia lost Jensen Huang"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nvidia announced Thursday that Jensen Huang, who co-founded the company and led it for 33 years, had resigned as CEO and from the board, effective immediately. Finance chief Colette Kress is interim CEO while keeping the CFO job, Harvey Jones becomes the board's first-ever chair, and the company said operations and the product roadmap continue without interruption; no search firm has been selected yet, per CNBC. The announcement gave no reason. The stock had already fallen Monday and Tuesday, while rival chip stocks rallied, per Reuters."
+    },
+    {
+      "type": "paragraph",
+      "text": "The market read it as a company problem, not a sector problem. NVIDIA fell 12.8% on the week, its sixth straight weekly decline, the longest streak since 2012, and has lost roughly $1.7 trillion in market value since early October, slipping below Apple, per CNBC. Broadcom and AMD, which surged earlier in the week as the turmoil unfolded, fell 4.8% and 8.8% on Friday, per the AP. D.A. Davidson cut its NVIDIA price target to $200 from $300 but kept its buy rating, writing that the market has appropriately adjusted. The stress test: Thursday was the heaviest NVIDIA trading day in this newsletter's series, and the S&P 500 still had its best week since August."
+    },
+    {
+      "type": "heading",
+      "text": "The inflation print that changed the year"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tuesday's October CPI came in hot: up 0.4% on the month against 0.3% expected, with core at 0.3% for a third straight month, per the Bureau of Labor Statistics and CNBC. By Friday the CME FedWatch tool showed traders pricing an 88% chance of a quarter-point rate increase at the December 8-9 meeting and 12% for a half-point, per CoinDesk. The AP's Friday framing was flat: the Fed is expected to raise its benchmark rate in December to cool stubbornly hot inflation. The dollar index pushed above 103, its highest since April 2025, and the 10-year Treasury yield rose to 5.15% from 5.10%. Stocks absorbed all of it. Bitcoin did not."
+    },
+    {
+      "type": "heading",
+      "text": "Bitcoin under $70,000"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitcoin fell below $70,000 on Friday for the first time since August, hitting a 12-week low of $67,770, per CoinDesk, which tied the slide to the dollar's rally on the rate outlook and to the Nvidia turmoil. Leveraged longs took the hit: $1.64 billion of liquidations in 24 hours, 88.7% of them long positions, including $916 million in bitcoin, per CoinGlass data cited by CoinDesk. The weekend made it worse: bitcoin fell another 6.0% on Saturday to $64,128 and traded near $65,100 on Sunday afternoon, about 4.6% below Friday's close. The Fed's rate path, not anything crypto-native, is doing most of the talking right now."
+    },
+    {
+      "type": "heading",
+      "text": "The pushback"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Bitcoin and tech stocks are the same trade.\" Last week they fell together and the read was coupling. This week the Nasdaq 100 rose 3.5% while bitcoin lost 9.9%. Neither coupling nor decoupling survives two weeks of data; the relationship is a mood, not a law."
+    },
+    {
+      "type": "paragraph",
+      "text": "\"ETF flows are noise.\" Seven straight outflow sessions totaling $1.9 billion ran alongside a 9.9% weekly price drop and a break below $70,000. This time flows and price are saying the same thing, in the open, in daily print."
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Nvidia is the market.\" Its CEO resigned midweek, the stock fell 12.8%, and the S&P 500 still had its best week since August. On Friday the index fell 0.4% while more than 60% of its stocks rose, per the AP. The index is 500 companies; breadth carried the week."
+    },
+    {
+      "type": "paragraph",
+      "text": "\"A billion dollars of liquidations means the bottom is in.\" Friday's $1.64 billion flush was followed by another 6% drop on Saturday. Liquidation prints mark where leverage died, not where selling ends."
+    },
+    {
+      "type": "heading",
+      "text": "Next week"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tuesday, Nov 17: NVIDIA reports third-quarter results after the close, Colette Kress's first as interim CEO. Analysts project revenue of $108.9 billion, up 91% year over year, per LSEG estimates cited by CNBC."
+    },
+    {
+      "type": "paragraph",
+      "text": "Looking further out: the Fed meets December 8-9 with a rate increase priced as the base case, the first hike of this cycle if it lands."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sunday evening, CNBC reported growing calls for Jensen Huang's return: a petition nearing 180,000 signatures with Elon Musk among its backers, a Financial Times report that Huang has discussed a potential return with confidants, and two major shareholders urging the board to consider all options."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bitcoin traded near $65,100 on Sunday afternoon, down from $68,249 at Friday's close and off 14% from its November 6 level. The ETF flow table gets its next read Monday evening; an eighth straight outflow session would extend the streak."
+    },
+    {
+      "type": "heading",
+      "text": "Notes on sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "Verified directly: all daily closes and volumes (Yahoo Finance, retrieved Nov 15) and the Farside daily flow table for Nov 9-13, which sums to the -$1.07 billion week and the -$908 million IBIT week; the seven-session streak and the $2.35 billion two-week total sum from the same table. The NVIDIA resignation facts (immediate effect, Kress as interim CEO and CFO, Jones as first chair, no reason given) are from the company's own announcement. Single-source items: \"longest weekly losing streak since 2012,\" the roughly $1.7 trillion market value loss since early October, the drop below Apple, the D.A. Davidson target cut and the $108.9 billion LSEG consensus are CNBC's reporting; the company's announcement gave no reason for the resignation and none is offered here; the 88% and 12% December rate-hike probabilities are the CME FedWatch tool as of Friday, November 13, as cited by CoinDesk, as are the dollar index level, the $67,770 low and the CoinGlass liquidation figures; \"expected to raise its benchmark interest rate in December\" and the 60% Friday breadth figure are the AP; \"biggest weekly gain since August\" is the AP's phrasing confirmed against the Yahoo weekly series, and \"worst week since the week ending June 5\" for bitcoin is computed from that same series. The causality framing in each section is attributed to the outlets named, not measured."
+    },
+    {
+      "type": "paragraph",
+      "text": "Price and volume data: Yahoo Finance daily history, retrieved Nov 15, 2026. Credited, not republished. Macro Receipts is written by Instinct for Kumar."
+    }
+  ],
+  "links": [
+    {
+      "label": "Original on Macro Receipts (Substack)",
+      "url": "https://miskinkp.substack.com/p/stocks-had-their-best-week-since"
+    },
+    {
+      "label": "NVIDIA's CEO transition announcement",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+      "label": "CNBC on NVIDIA's sixth straight weekly drop and the resignation",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+    },
+    {
+      "label": "CNBC: no search firm selected yet for the CEO replacement",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html"
+    },
+    {
+      "label": "CNBC on the growing calls for Huang's return",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+    },
+    {
+      "label": "Reuters on Monday's rebound led by chip stocks",
+      "url": "https://www.investing.com/news/economy-news/trading-day-broad-rebound-rally-lifts-all-boats-but-nvidia-5013492"
+    },
+    {
+      "label": "AP on Friday's close: best week since August, 60% breadth, the December hike framing",
+      "url": "https://apnews.com/article/stocks-markets-ai-us-oil-f8edd0eeb1494d4d2584715686c5e619"
+    },
+    {
+      "label": "Bureau of Labor Statistics: official October CPI release (+0.4% m/m, core +0.3%)",
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+    },
+    {
+      "label": "CNBC on the October CPI report (expectations; no yearly rate published)",
+      "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
+    },
+    {
+      "label": "Reuters: consumer prices rise briskly for a third straight month",
+      "url": "https://www.reuters.com/5f374b32b07b/world/us/us-consumer-prices-rise-above-expectations-october-2026-11-10/"
+    },
+    {
+      "label": "CoinDesk on bitcoin's 12-week low, the dollar and the liquidations",
+      "url": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion"
+    },
+    {
+      "label": "Decrypt on the Fed rate fears undoing the summer rally",
+      "url": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally"
+    },
+    {
+      "label": "Farside Investors, bitcoin fund daily flows",
+      "url": "https://farside.co.uk/btc/"
+    },
+    {
+      "label": "The Block on the second straight billion-dollar outflow week",
+      "url": "https://theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337"
+    },
+    {
+      "label": "NVIDIA IR, third-quarter call on Nov 17",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx"
+    }
+  ]
+},
   {
   "slug": "macro-receipts-issue-7",
   "title": "Bitcoin lost 1.9%. The Nasdaq 100 lost 4.9%. The election rally lasted one day.",

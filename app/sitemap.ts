@@ -14,6 +14,7 @@ const ROUTES = [
   "/writing/macro-receipts-issue-3",
   "/writing/macro-receipts-issue-5",
   "/writing/macro-receipts-issue-7",
+  "/writing/macro-receipts-issue-8",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
